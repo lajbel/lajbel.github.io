@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-family: "Itim", arial;
+}
+
+/* Card */
+
+.card {
+	display: block;
+	background-color: #FFFBF5;
+	padding: 10px;
+	border: 5px solid #FFB656;
+	border-radius: 10px;
+}
+
+.card h1 {
+	text-align: center;
+}
