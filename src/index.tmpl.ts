@@ -1,4 +1,4 @@
-export const layout = "./layouts/home.njk";
+export const layout = "../layouts/home.njk";
 
 export const title = "LaJSite - Home";
 

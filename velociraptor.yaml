@@ -1,7 +1,7 @@
 scripts:
   build:
     desc: "Build src/ folder to .html static"
-    cmd: lume --src src/ --dest page/
+    cmd: lume
   serve: 
     desc: "Server site"
     cmd: lume --serve --src src/ 
