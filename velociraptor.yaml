@@ -7,4 +7,4 @@ scripts:
     cmd: lume --serve --src src/ 
   dev:
     desc: All for developement
-    cmd: vr build && vr serve
+    cmd: vr build | vr serve
