@@ -1,0 +1,23 @@
+nav {
+	background: #1D7874;
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	padding: px 0px;
+}
+
+nav h1 {
+	display: inline;
+}
+
+nav li, a {
+	display: inline;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C6CAED;
+}
