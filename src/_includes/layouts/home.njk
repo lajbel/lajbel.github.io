@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title></title>
+		<title>{{ title }}</title>
 		<link rel="stylesheet" href="./styles/styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<link rel="icon" href="./favicon.ico">
@@ -10,29 +10,25 @@
 
 	<body>
 		<header>
-			<nav>
-				<h1></h1>
-
-				<ul class="sections">
-					
-				</ul>
-			</nav>
+			{% include "partials/nav.njk "%}
 		</header>
 
 		<main>
-			<h1> </h1>
+			<h1 id="name"><i class="fa-solid fa-angle-left"></i> {{ name | safe }} <i class="fa-solid fa-angle-right"></i></h1>
 
 			<div class="bio">
-				<p></p>
+				<p>{{ bio | safe }}</p>
 			</div>
 
 			<ul class="social">
-					
+				{% for social in socials %}
+					<li>{{ social | safe }}</li>
+				{% endfor %}
 			</ul>
 		</main>
 
 		<footer>
-			<p></p>
+			<p>{{ footer | safe }}</p>
 		</footer>
 	</body>
 </html>

@@ -1,0 +1,9 @@
+<nav>
+	<h1>{{ navTitle }}</h1>
+
+	<ul class="sections">
+		{% for section in sections %}
+			<li>{{ section | safe }}</li>
+		{% endfor %}
+	</ul>
+</nav>

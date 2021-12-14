@@ -1,4 +1,4 @@
-export const layout = "../layouts/home.njk";
+export const layout = "layouts/home.njk";
 
 export const title = "LaJSite - Home";
 
@@ -9,7 +9,7 @@ export const sections = [
 	'<a href="/portfolio">Portfolio</a>',
 ];
 
-export const name = `<i class="fa-solid fa-angle-left"></i> LaJBel <i class="fa-solid fa-angle-right"></i>`;
+export const name = `LaJBel`;
 export const bio = "Hi, i am <span>Dani</span>, web developer, designer (doubtful), and I like the programming, the coffee and learn new things ☕";
 
 export const socials = [
