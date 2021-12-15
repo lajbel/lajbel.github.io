@@ -2,6 +2,9 @@ scripts:
   build:
     desc: "Build src/ folder to .html static"
     cmd: lume
+  format:
+    desc: "Format files"
+    cmd: deno fmt --config deno.json .
   serve: 
     desc: "Server site"
     cmd: lume --serve --src src/ 
