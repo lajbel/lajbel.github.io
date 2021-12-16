@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap');
-main {
+.home {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -7,13 +7,36 @@ main {
 	align-items: center;
 	flex-direction: column;
 }
-main h1 {
+.home h1 {
 	color: var(--font-color);
 	text-align: center;
 	font-size: calc(2rem + 2vw);
 	padding: 10px;
 }
-main h1 i {
+.home h1 i {
+	color: var(--secondary-color);
+}
+.bio {
+	color: var(--font-color);
+	max-width: 350px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.bio span {
+	color: var(--secondary-color);
+}
+.social {
+	list-style: none;
+	text-align: center;
+	font-size: 2rem;
+	padding: 10px;
+}
+.social li, a {
+	color: var(--font-color);
+	display: inline-block;
+	margin: 0px 2px;
+}
+.social a:hover {
 	color: var(--secondary-color);
 }
 nav {
@@ -57,32 +80,6 @@ html, body {
 	font-family: "Spartan", arial;
 	background: var(--background-color);
 }
-/* Bio */
-.bio {
-	color: var(--font-color);
-	max-width: 350px;
-	margin: 0 auto;
-	padding: 10px;
-}
-.bio span {
-	color: var(--secondary-color);
-}
-/* Social */
-.social {
-	list-style: none;
-	text-align: center;
-	font-size: 2rem;
-	padding: 10px;
-}
-.social li, a {
-	color: var(--font-color);
-	display: inline-block;
-	margin: 0px 2px;
-}
-.social a:hover {
-	color: var(--secondary-color);
-}
-/*Footer*/
 footer {
 	background-color: #071E22;
 	color: var(--font-color);

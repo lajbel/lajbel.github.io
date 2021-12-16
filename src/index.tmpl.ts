@@ -1,7 +1,6 @@
 export const layout = "layouts/home.njk";
 
 export const title = "LaJSite - Home";
-
 export const navTitle = "LaJ-Site";
 
 export const sections = [

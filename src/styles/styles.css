@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap');
-@import url("./main.css");
+@import url("./home.css");
 @import url("./nav.css");
 
 :root {
@@ -18,40 +18,6 @@ html, body {
 	font-family: "Spartan", arial;
 	background: var(--background-color);
 }
-
-/* Bio */
-
-.bio {
-	color: var(--font-color);
-	max-width: 350px;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-.bio span {
-	color: var(--secondary-color);
-}
-
-/* Social */
-
-.social {
-	list-style: none;
-	text-align: center;
-	font-size: 2rem;
-	padding: 10px;
-}
-
-.social li, a {
-	color: var(--font-color);
-	display: inline-block;
-	margin: 0px 2px;
-}
-
-.social a:hover {
-	color: var(--secondary-color);
-}
-
-/*Footer*/
 
 footer {
 	background-color: #071E22;
