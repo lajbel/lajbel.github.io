@@ -10,12 +10,19 @@ nav {
 
 nav h1 {
 	display: inline;
+	color: var(--font-color);
+	padding: 10px;
 }
 
 nav li, a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	margin: 0px 3px;
 }
 
 nav a:hover {

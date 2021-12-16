@@ -7,6 +7,15 @@ main {
 	align-items: center;
 	flex-direction: column;
 }
+main h1 {
+	color: var(--font-color);
+	text-align: center;
+	font-size: calc(2rem + 2vw);
+	padding: 10px;
+}
+main h1 i {
+	color: var(--secondary-color);
+}
 nav {
 	background: #1D7874;
 	position: absolute;
@@ -18,11 +27,18 @@ nav {
 }
 nav h1 {
 	display: inline;
+	color: var(--font-color);
+	padding: 10px;
 }
 nav li, a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	margin: 0px 3px;
 }
 nav a:hover {
 	color: #C6CAED;
@@ -40,14 +56,6 @@ html, body {
 	height: 100%;
 	font-family: "Spartan", arial;
 	background: var(--background-color);
-}
-h1 {
-	color: var(--font-color);
-	text-align: center;
-	padding: 10px;
-}
-h1 i {
-	color: var(--secondary-color);
 }
 /* Bio */
 .bio {

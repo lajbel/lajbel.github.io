@@ -6,24 +6,23 @@
 		<link rel="stylesheet" href="./styles/styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 		<link rel="icon" href="./favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
 		<header>
-			{% include "partials/nav.njk "%}
+			{% include "partials/nav.njk" %}
 		</header>
 
 		<main>
-			<h1 id="name"><i class="fa-solid fa-angle-left"></i> {{ name | safe }} <i class="fa-solid fa-angle-right"></i></h1>
+			<h1 id="name"><i class="fa-solid fa-angle-left"></i>{{ name | safe }}<i class="fa-solid fa-angle-right"></i></h1>
 
 			<div class="bio">
 				<p>{{ bio | safe }}</p>
 			</div>
 
 			<ul class="social">
-				{% for social in socials %}
-					<li>{{ social | safe }}</li>
-				{% endfor %}
+				{% for social in socials %}<li>{{ social | safe }}</li>{% endfor %}
 			</ul>
 		</main>
 

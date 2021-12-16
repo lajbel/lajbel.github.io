@@ -19,16 +19,6 @@ html, body {
 	background: var(--background-color);
 }
 
-h1 {
-	color: var(--font-color);
-	text-align: center;
-	padding: 10px;
-}
-
-h1 i {
-	color: var(--secondary-color);
-}
-
 /* Bio */
 
 .bio {
