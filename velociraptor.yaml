@@ -1,13 +1,13 @@
 scripts:
   build:
-    desc: "Build src/ folder to .html static"
     cmd: lume
+    desc: 🏗️ Build src/ folder to .html static
   format:
-    desc: "Format files"
     cmd: deno fmt --config deno.json .
-  serve: 
-    desc: "Server site"
-    cmd: lume --serve --src src/ 
+    desc: ✨ Format all files with dprint
+  serve:
+    cmd: lume --serve --src src/
+    desc: 🔥 Serve lume site 
   dev:
-    desc: All for developement
-    cmd: vr build | vr serve
+    cmd: vr build && vr serve
+    desc: 🎬 All for developement 
