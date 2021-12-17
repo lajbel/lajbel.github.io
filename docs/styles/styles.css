@@ -31,7 +31,7 @@
 	font-size: 2rem;
 	padding: 10px;
 }
-.social li, nav a {
+.social li, .social a {
 	color: var(--font-color);
 	display: inline-block;
 	margin: 0px 2px;
@@ -62,6 +62,8 @@ nav li, nav a {
 	    -ms-user-select: none;
 	        user-select: none;
 	margin: 0px 3px;
+	color: var(--font-color);
+	display: inline-block;
 }
 nav a:hover {
 	color: #C6CAED;

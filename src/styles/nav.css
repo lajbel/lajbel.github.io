@@ -20,6 +20,8 @@ nav li, nav a {
 	text-decoration: none;
 	user-select: none;
 	margin: 0px 3px;
+	color: var(--font-color);
+	display: inline-block;
 }
 
 nav a:hover {

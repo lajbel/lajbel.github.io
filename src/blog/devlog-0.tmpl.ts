@@ -1,5 +1,5 @@
 export const layout = "layouts/entry.njk";
-export const title = "DevLog #0";
+export const title = "Devlog #0";
 
 export const source = [
 	"Newgrounds",

@@ -2,12 +2,17 @@ main {
 	text-align: center;
 }
 
+nav {
+	position: static;
+}
+
 .entry-card {
 	padding: 20px;
+	margin: 5px;
 	display: inline-block;
 	text-align: left;
 	width: 50%;
-	background-color: #071E22;
+	background-color: #A47963;
 }
 
 .entry-card i {
