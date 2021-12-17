@@ -14,7 +14,7 @@ nav h1 {
 	padding: 10px;
 }
 
-nav li, a {
+nav li, nav a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;

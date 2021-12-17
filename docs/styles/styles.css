@@ -31,7 +31,7 @@
 	font-size: 2rem;
 	padding: 10px;
 }
-.social li, a {
+.social li, nav a {
 	color: var(--font-color);
 	display: inline-block;
 	margin: 0px 2px;
@@ -53,7 +53,7 @@ nav h1 {
 	color: var(--font-color);
 	padding: 10px;
 }
-nav li, a {
+nav li, nav a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;

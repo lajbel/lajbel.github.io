@@ -20,3 +20,7 @@ main {
 	width: 70%;
 	margin: 20px 0px;
 }
+
+.entry-card a {
+	color: var(--font-color);
+}
