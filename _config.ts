@@ -10,5 +10,6 @@ const site = lume({
 site.use(postcss());
 site.use(bundler());
 site.copy("favicon.ico");
+site.copy("img");
 
 export default site;

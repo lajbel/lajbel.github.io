@@ -1,0 +1,22 @@
+main {
+	text-align: center;
+}
+
+.entry-card {
+	padding: 20px;
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	background-color: #071E22;
+}
+
+.entry-card i {
+	display: block;
+}
+
+.entry-card img {
+	-o-object-fit: scale-down;
+	   object-fit: scale-down;
+	width: 70%;
+	margin: 20px 0px;
+}

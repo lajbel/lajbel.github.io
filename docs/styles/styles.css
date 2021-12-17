@@ -78,7 +78,12 @@ nav a:hover {
 html, body {
 	height: 100%;
 	font-family: "Spartan", arial;
+	color: var(--font-color);
 	background: var(--background-color);
+}
+main {
+	height: 100%;
+	width: 100%;
 }
 footer {
 	background-color: #071E22;
