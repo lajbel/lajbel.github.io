@@ -13,3 +13,6 @@ export const socials = [
 
 export const footer =
 	`Made with <i class="fa-solid fa-heart"></i> and <i class="fa-solid fa-fire"></i>  <i class="fa-solid fa-grip-lines-vertical"></i>  Dani Báez (c) 2021`;
+
+export const metaTitle = title;
+export const metaDescription = bio;

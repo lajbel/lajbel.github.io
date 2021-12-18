@@ -1,5 +1,5 @@
 nav {
-	background: #1D7874;
+	background: #1d7874;
 	position: absolute;
 	display: flex;
 	justify-content: space-around;
@@ -14,7 +14,8 @@ nav h1 {
 	padding: 10px;
 }
 
-nav li, nav a {
+nav li,
+nav a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;
@@ -25,5 +26,5 @@ nav li, nav a {
 }
 
 nav a:hover {
-	color: #C6CAED;
+	color: #c6caed;
 }

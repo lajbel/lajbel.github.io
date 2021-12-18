@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap");
 @import url("./home.css");
 @import url("./nav.css");
 
 :root {
 	--background-color: #679289;
-	--font-color: #EAE6E5;
-	--secondary-color: #C6CAED;
+	--font-color: #eae6e5;
+	--secondary-color: #c6caed;
 }
 
 * {
@@ -13,7 +13,8 @@
 	margin: 0px;
 }
 
-html, body {
+html,
+body {
 	height: 100%;
 	font-family: "Spartan", arial;
 	color: var(--font-color);
@@ -26,7 +27,7 @@ main {
 }
 
 footer {
-	background-color: #071E22;
+	background-color: #071e22;
 	color: var(--font-color);
 	text-align: center;
 	padding: 5px;

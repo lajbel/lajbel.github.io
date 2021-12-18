@@ -10,4 +10,4 @@ scripts:
     desc: 🔥 Serve lume site 
   dev:
     cmd: vr build && vr serve
-    desc: 🎬 All for developement 
+    desc: 🎬 All for developement

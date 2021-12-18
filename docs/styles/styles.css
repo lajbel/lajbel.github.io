@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Spartan&display=swap&display=swap");
 .home {
 	width: 100%;
 	height: 100%;
@@ -31,7 +31,8 @@
 	font-size: 2rem;
 	padding: 10px;
 }
-.social li, .social a {
+.social li,
+.social a {
 	color: var(--font-color);
 	display: inline-block;
 	margin: 0px 2px;
@@ -40,7 +41,7 @@
 	color: var(--secondary-color);
 }
 nav {
-	background: #1D7874;
+	background: #1d7874;
 	position: absolute;
 	display: flex;
 	justify-content: space-around;
@@ -53,7 +54,8 @@ nav h1 {
 	color: var(--font-color);
 	padding: 10px;
 }
-nav li, nav a {
+nav li,
+nav a {
 	display: inline;
 	font-weight: bold;
 	text-decoration: none;
@@ -66,18 +68,19 @@ nav li, nav a {
 	display: inline-block;
 }
 nav a:hover {
-	color: #C6CAED;
+	color: #c6caed;
 }
 :root {
 	--background-color: #679289;
-	--font-color: #EAE6E5;
-	--secondary-color: #C6CAED;
+	--font-color: #eae6e5;
+	--secondary-color: #c6caed;
 }
 * {
 	padding: 0px;
 	margin: 0px;
 }
-html, body {
+html,
+body {
 	height: 100%;
 	font-family: "Spartan", arial;
 	color: var(--font-color);
@@ -88,7 +91,7 @@ main {
 	width: 100%;
 }
 footer {
-	background-color: #071E22;
+	background-color: #071e22;
 	color: var(--font-color);
 	text-align: center;
 	padding: 5px;

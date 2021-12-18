@@ -32,7 +32,8 @@
 	font-size: 2rem;
 	padding: 10px;
 }
-.social li, .social a {
+.social li,
+.social a {
 	color: var(--font-color);
 	display: inline-block;
 	margin: 0px 2px;

@@ -3,38 +3,41 @@
 <html>
 	<head>
 		<title>LaJBlog - {{ title }}</title>
-		<link rel="stylesheet" href="/styles/styles.css">
-		<link rel="stylesheet" href="/styles/entry.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<link rel="icon" href="/favicon.ico">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/styles/styles.css" />
+		<link rel="stylesheet" href="/styles/entry.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<meta name="title" content="LaJBlog - {{ title }}">
-		<meta name="description" content="{{ blog }}">
-		<meta name=" theme-color" content="#679289">
+		<meta name="title" content="LaJBlog - {{ title }}" />
+		<meta name="description" content="{{ blog }}" />
+		<meta name=" theme-color" content="#679289" />
 
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://metatags.io/">
-		<meta property="og:title" content="LaJBlog - {{ title }}">
-		<meta property="og:description" content="{{ blog }}">
-		<meta property="og:image" content="{{ bannerImage }}">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://metatags.io/" />
+		<meta property="og:title" content="LaJBlog - {{ title }}" />
+		<meta property="og:description" content="{{ blog }}" />
+		<meta property="og:image" content="{{ bannerImage }}" />
 
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content="https://lajbel.github.io/">
-		<meta property="twitter:title" content="LaJBlog - {{ title }}">
-		<meta property="twitter:description" content="{{ blog }}">
-		<meta property="twitter:image" content="{{ bannerImage }}">
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://lajbel.github.io/" />
+		<meta property="twitter:title" content="LaJBlog - {{ title }}" />
+		<meta property="twitter:description" content="{{ blog }}" />
+		<meta property="twitter:image" content="{{ bannerImage }}" />
 	</head>
 
 	<body>
-		<header>
-			{% include "partials/nav.njk" %}
-		</header>
+		<header>{% include "partials/nav.njk" %}</header>
 
 		<main class="blog entry">
 			<div class="entry-card">
 				<h1>{{ title }}</h1>
-				<p>From <a href="{{ source[1] }}">{{ source[0] }}</a></p>
+				<p>
+					From <a href="{{ source[1] }}">{{ source[0] }}</a>
+				</p>
 
 				<img src="{{ bannerImage }}" />
 
