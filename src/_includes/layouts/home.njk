@@ -22,9 +22,7 @@
 			</div>
 
 			<ul class="social">
-				{% for social in socials %}
-				<li>{{ social | safe }}</li>
-				{% endfor %}
+				{% for social in socials %}<li>{{ social | safe }}</li>{% endfor %}
 			</ul>
 		</main>
 
