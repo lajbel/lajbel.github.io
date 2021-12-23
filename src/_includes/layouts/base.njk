@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>{{ title }}</title>
+		<link rel="stylesheet" href="styles/base.css"></link>
+		<link rel="stylesheet" href="styles/nav.css" />
+		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" />
+		
+		{% block styles %}{% endblock %}
+
+		{% include "partials/head.njk" %}
+	</head>
+
+	<body>
+		<main class="page">
+			{% block page %} {% endblock %}
+
+			{% include "partials/nav.njk" %}
+		</main>
+	</body>
+</html>

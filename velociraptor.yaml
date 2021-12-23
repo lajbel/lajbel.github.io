@@ -1,12 +1,12 @@
 scripts:
   build:
-    cmd: lume
+    cmd: deno run -A https://deno.land/x/lume@v1.3.0/ci.ts
     desc: 🏗️ Build src/ folder to .html static
   format:
     cmd: deno fmt --config deno.json .
     desc: ✨ Format all files with dprint
   serve:
-    cmd: lume --serve --src src/
+    cmd: deno run -A https://deno.land/x/lume@v1.3.0/ci.ts --serve --src src/
     desc: 🔥 Serve lume site 
   dev:
     cmd: vr build && vr serve

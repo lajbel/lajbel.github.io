@@ -1,21 +1,38 @@
-nav {
+.social {
+	text-align: center;
 	list-style: none;
 	margin: 10px;
 	font-size: 2em;
 }
 
-nav li {
+.social li {
 	display: inline-block;
 	margin: 7px;
 }
 
-nav i.fa-dungeon {
-	color: #0970ff;
-}
-
-nav li.outline {
+.social li.outline {
 	/* Thanks to StackOverFlow and Wonder*/
 	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
 		1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000,
 		0 -2px 0 #000000;
+}
+
+.social a {
+	text-decoration: none;
+}
+
+.social .fa-twitter {
+	color: #1da1f2;
+}
+
+.social i.fa-github-alt {
+	color: #171515;
+}
+
+.social i.fa-mug-saucer {
+	color: #ffb5b0;
+}
+
+.social .fa-itch-io {
+	color: #fa5c5c;
 }

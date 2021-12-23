@@ -1,33 +1,13 @@
-<!DOCTYPE html>
+{% extends "layouts/base.njk" %}
 
-<html>
-	<head>
-		<title>{{ title }}</title>
-		<link rel="stylesheet" href="./styles/styles.css" />
+{% block styles %}
+	<link rel="stylesheet" href="styles/avatar.css" />
+	<link rel="stylesheet" href="styles/social.css" />
+{% endblock %}
 
-		{% include "partials/head.njk" %}
-	</head>
-
-	<body>
-		<header>{% include "partials/nav.njk" %}</header>
-
-		<main class="home">
-			<h1 id="name">
-				<i class="fa-solid fa-angle-left"></i>{{ name | safe
-				}}<i class="fa-solid fa-angle-right"></i>
-			</h1>
-
-			<div class="bio">
-				<p>{{ bio | safe }}</p>
-			</div>
-
-			<ul class="social">
-				{% for social in socials %}<li>{{ social | safe }}</li>{% endfor %}
-			</ul>
-		</main>
-
-		<footer>
-			<p>{{ footer | safe }}</p>
-		</footer>
-	</body>
-</html>
+{% block page %}
+	<h1><span class="one">LaJ</span><span class="two">Bel</span></h1>
+	<img class="avatar" src="{{ avatar }}"/>
+	<p>{{ bio | safe }}</p>
+	<ul class="social">{% for social in socials %}<li class="outline">{{ social | safe }}</li>{% endfor %}</ul>
+{% endblock %}
