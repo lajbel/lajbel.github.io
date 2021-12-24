@@ -1,18 +1,22 @@
-name: CI
+name: Prettier
 
 on:
   push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
-  workflow_dispatch:
 
 jobs:
   prettier:
     runs-on: ubuntu-latest
     steps:
-      - name: Prettier
-        uses: creyD/prettier_action@v4.1.1
-        with:
-          commit_message: Prettiered!
-          prettier_options: --write **/*.html
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - uses: actions/cache@v2
+      name: Configure npm caching
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-npm-${{ hashFiles('**/workflows/prettier.yml') }}
+        restore-keys: |
+          ${{ runner.os }}-npm-
+    - name: Run prettier
+      run: |-
+        npx prettier --write 'docs/*[.js,.html,.css]'
