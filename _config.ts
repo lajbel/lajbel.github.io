@@ -11,5 +11,6 @@ site.use(postcss());
 site.use(bundler());
 
 site.copy("img");
+site.copy("CNAME");
 
 export default site;
