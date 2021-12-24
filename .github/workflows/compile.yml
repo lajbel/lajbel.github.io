@@ -1,0 +1,23 @@
+name: Compile webpage with Lume
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@004814556e37c54a2f6e31384c9e18e9833173669
+        with:
+          deno-version: v1.x
+          
+      - name: Lume build
+        run: deno run -A https://deno.land/x/lume/ci.ts
