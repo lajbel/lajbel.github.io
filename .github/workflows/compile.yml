@@ -20,4 +20,4 @@ jobs:
           deno-version: v1.x
           
       - name: Lume build
-        run: deno run -A https://deno.land/x/lume/ci.ts
+        run: deno run -A https://deno.land/x/lume@v1.3.0/ci.ts
