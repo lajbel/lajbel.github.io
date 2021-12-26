@@ -1,6 +1,9 @@
 export const layout = "layouts/portfolio.njk";
 export const title = "LaJSite - Portfolio";
 
+export const t1 = "Port";
+export const t2 = "Folio";
+
 export const projects = [
 	{
 		"name": "Ceratosaur",

@@ -3,8 +3,8 @@
 <html>
 	<head>
 		<title>{{ title }}</title>
-		<link rel="stylesheet" href="styles/base.css" />
-		<link rel="stylesheet" href="styles/nav.css" />
+		<link rel="stylesheet" href="/styles/base.css" />
+		<link rel="stylesheet" href="/styles/nav.css" />
 		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css" />
 		
 		{% block styles %}{% endblock %}
@@ -14,6 +14,8 @@
 
 	<body>
 		<main class="page">
+			<h1><span class="one">{{ t1 }}</span><span class="two">{{ t2 }}</span></h1>
+
 			{% block page %} {% endblock %}
 
 			{% include "partials/nav.njk" %}

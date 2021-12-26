@@ -1,21 +1,11 @@
 nav {
-	list-style: none;
 	margin: 10px;
-	font-size: 2em;
+}
+
+nav ul {
+	list-style: none;
 }
 
 nav li {
-	display: inline-block;
 	margin: 7px;
-}
-
-nav i.fa-dungeon {
-	color: #0970ff;
-}
-
-nav li.outline {
-	/* Thanks to StackOverFlow and Wonder*/
-	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
-		1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000,
-		0 -2px 0 #000000;
 }

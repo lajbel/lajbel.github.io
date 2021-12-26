@@ -5,6 +5,9 @@ export const name = `LaJBel`;
 export const bio =
 	"Hi, i am <span>Dani</span>, web developer, designer (doubtful), and I like the programming, the coffee and learn new things ☕";
 
+export const t1 = "LaJ";
+export const t2 = "Bel";
+
 export const avatar = "img/lajvatar.png";
 
 export const socials = [

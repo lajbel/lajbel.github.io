@@ -7,7 +7,4 @@ scripts:
     desc: ✨ Format all files with dprint
   serve:
     cmd: deno run -A https://deno.land/x/lume@v1.3.0/ci.ts --serve --src src/
-    desc: 🔥 Serve lume site 
-  dev:
-    cmd: vr build && vr serve
-    desc: 🎬 All for developement
+    desc: 🔥 Serve lume site

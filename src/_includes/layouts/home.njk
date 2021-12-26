@@ -1,12 +1,11 @@
 {% extends "layouts/base.njk" %}
 
 {% block styles %}
-	<link rel="stylesheet" href="styles/avatar.css" />
-	<link rel="stylesheet" href="styles/social.css" />
+	<link rel="stylesheet" href="/styles/avatar.css" />
+	<link rel="stylesheet" href="/styles/social.css" />
 {% endblock %}
 
 {% block page %}
-	<h1><span class="one">LaJ</span><span class="two">Bel</span></h1>
 	<img class="avatar" src="{{ avatar }}"/>
 	<p>{{ bio | safe }}</p>
 	<ul class="social">{% for social in socials %}<li class="outline">{{ social | safe }}</li>{% endfor %}</ul>

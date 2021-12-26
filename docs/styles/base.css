@@ -50,13 +50,23 @@ main {
 }
 
 .page h2 {
-	font-size: 1em;
+	font-size: 2em;
 	color: #ef7b45;
 }
 
 .page p {
 	margin: 20px 0px 0px 0px;
 	padding: 0px 40px;
+}
+
+.page a {
+	color: #ef437f;
+	text-decoration: none;
+}
+
+.page a:hover {
+	color: #437fef;
+	text-decoration: underline;
 }
 
 @media only screen and (min-width: 992px) {
