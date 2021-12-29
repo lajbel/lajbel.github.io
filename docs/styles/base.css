@@ -69,6 +69,19 @@ main {
 	text-decoration: underline;
 }
 
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: #fffc98;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ff98f5;
+	border-radius: 10px;
+}
+
 @media only screen and (min-width: 992px) {
 	main {
 		height: 80%;
