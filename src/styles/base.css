@@ -60,12 +60,11 @@ main {
 }
 
 .page a {
-	color: #ef437f;
+	color: #437fef;
 	text-decoration: none;
 }
 
 .page a:hover {
-	color: #437fef;
 	text-decoration: underline;
 }
 
