@@ -4,7 +4,7 @@ export const title = "LaJSite - Home";
 export const name = `LaJBel`;
 export const bio =
 	`Hi, i am <span>Dani</span>, web developer & designer, and I like the programming, play videogames, the coffee and learn new things ☕<br/><br/>
-	I'm currently helping like dsc bot developer, and trying be a visual novel dev 🐈`;
+	I'm currently helping like dsc bot developer, and trying be a visual novel devv 🐈`;
 
 export const t1 = "LaJ";
 export const t2 = "Bel";
