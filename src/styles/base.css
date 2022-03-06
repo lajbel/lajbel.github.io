@@ -68,12 +68,17 @@ main {
 	text-decoration: underline;
 }
 
+i .fa-discord {
+	color: #1a1423;
+}
+
 ::-webkit-scrollbar {
 	width: 7px;
 }
 
 ::-webkit-scrollbar-track {
 	background: #fffc98;
+	border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
