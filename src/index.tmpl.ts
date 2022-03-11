@@ -3,7 +3,7 @@ export const title = "LaJSite - Home";
 
 export const name = `LaJBel`;
 export const bio =
-	`Hi, i am <span>Dani</span>, web developer & designer, and I like the programming, play videogames, the coffee and learn new things ☕<br/><br/>
+	`Hi, I'm <span>Dani</span>, web developer & designer, and I like the programming, play videogames, the coffee, crypto and learn new things ☕<br/><br/>
 	I'm currently helping like dsc bot developer, and trying be a visual novel dev 🐈`;
 
 export const t1 = "LaJ";
@@ -12,9 +12,10 @@ export const t2 = "Bel";
 export const avatar = "img/lajvatar.jpg";
 
 export const socials = [
-	`<a href="https://twitter.com/lajbelms" target="_blank"><i class="fa-brands fa-twitter"></i></a>`,
-	`<a href="https://github.com/lajbel" target="_blank"><i class="fa-brands fa-github-alt"></i></a>`,
 	`<a href="https://lajbel.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>`,
+	`<a href="https://twitter.com/lajbelms" target="_blank"><i class="fa-brands fa-twitter"></i></a>`,
+	`<a href="https://www.instagram.com/daniivms/" target="_blank"><i class="fa-brands fa-instagram"></i></a>`,
+	`<a href="https://github.com/lajbel" target="_blank"><i class="fa-brands fa-github-alt"></i></a>`,
 	`<a href="https://ko-fi.com/lajbel" target="_blank"><i class="fa-solid fa-mug-hot"></i></a>`,
 ];
 
