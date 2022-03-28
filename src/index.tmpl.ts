@@ -3,8 +3,8 @@ export const title = "LaJSite - Home";
 
 export const name = `LaJBel`;
 export const bio =
-	`Hi, I'm <span>Dani</span>, web developer & designer, and I like the programming, play videogames, the coffee, crypto and learn new things ☕<br/><br/>
-	I'm currently helping like dsc bot developer, and trying be a visual novel dev 🐈`;
+	`Hi, I'm <span>Dani</span>, web developer & designer, and I like programming, playing videogames, coffee, crypto and learning new things ☕<br/><br/>
+	I'm currently helping like dsc bot developer, and trying to be a visual novel dev 🐈`;
 
 export const t1 = "LaJ";
 export const t2 = "Bel";
