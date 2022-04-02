@@ -1,11 +1,21 @@
 nav {
-	margin: 10px;
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
-nav ul {
-	list-style: none;
+.navbutton i {
+	color: #d1fff8;
+	font-size: calc(32px + 1vw);
 }
 
-nav li {
-	margin: 7px;
+@media only screen and (max-width: 386px) {
+	nav {
+		justify-content: center;
+	}
+
+	.navbutton {
+		display: none;
+	}
 }

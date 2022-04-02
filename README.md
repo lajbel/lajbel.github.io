@@ -1,6 +1,6 @@
-# The LaJSite V69
+# The LaJLand V69
 
-The LaJSite it's basically my site, for a simple and pretty profile and portfolio! Now in version 69, the last ☕ 
+The LaJLand it's basically my site, for a simple and pretty profile and portfolio! Now in version 69, the last ☕ 
 
 ## Powered By 🚀
 

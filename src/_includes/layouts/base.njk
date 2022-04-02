@@ -14,11 +14,9 @@
 
 	<body>
 		<main class="page">
-			<h1><span class="one">{{ t1 }}</span><span class="two">{{ t2 }}</span></h1>
+			{% include "partials/nav.njk" %}
 
 			{% block page %} {% endblock %}
-
-			{% include "partials/nav.njk" %}
 		</main>
 	</body>
 </html>
