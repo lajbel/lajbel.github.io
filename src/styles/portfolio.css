@@ -1,0 +1,29 @@
+.projects {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.project {
+	width: 220px;
+	height: 280px;
+	text-align: center;
+	margin: 0px 15px;
+	border-radius: 12px;
+}
+
+.project h3 {
+	font-size: calc(10px + 1vw);
+}
+
+.project img {
+	width: 100%;
+	height: 60%;
+	object-fit: cover;
+}
+
+.project p {
+	margin: 5px;
+	padding: 0px;
+}

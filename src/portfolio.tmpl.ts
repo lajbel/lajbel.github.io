@@ -6,7 +6,23 @@ export const t2 = "Folio";
 
 export const projects = [
 	{
-		"name": "Ceratosaur",
+		"name": "Love Juices",
+		"image": "/img/lovejuices.png",
+		"description": "The Love is Juicy. Your New Dating Simulator!",
+		"color": "#ff9d7d",
+	},
+	{
+		"name": "Mark Bot",
+		"image": "/img/markbot.png",
+		"description": "Mark Bot to your service. The best Kaboom Bot",
+		"color": "#c94a36",
+	},
+	{
+		"name": "To Hive To Hold",
+		"image": "/img/tohivetohold.png",
+		"description":
+			"Mikki becomes the new queen of a hivemind in Saffras City",
+		"color": "#a32198",
 	},
 ];
 

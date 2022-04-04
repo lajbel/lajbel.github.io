@@ -3,10 +3,17 @@
 {% block styles %}
 	<link rel="stylesheet" href="/styles/avatar.css" />
 	<link rel="stylesheet" href="/styles/social.css" />
+	<link rel="stylesheet" href="/styles/portfolio.css" />
 {% endblock %}
 
 {% block page %}
-	
-
-	<p>Soon tm</p>
+	<div class="projects">
+	{% for project in projects %}
+		<section class="project">
+			<h3 style="color:{{ project.color }};">{{ project.name }}</h3>
+			<img src="{{ project.image }}" />
+			<p> {{ project.description }} </p>
+		</section>
+	{% endfor %}
+	</div>
 {% endblock %}

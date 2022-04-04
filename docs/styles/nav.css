@@ -5,11 +5,6 @@ nav {
 	justify-content: space-between;
 }
 
-.navbutton i {
-	color: #d1fff8;
-	font-size: calc(32px + 1vw);
-}
-
 @media only screen and (max-width: 386px) {
 	nav {
 		justify-content: center;
