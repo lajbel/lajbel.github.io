@@ -18,8 +18,7 @@ export const avatar = "img/lajvatar.jpg";
 export const socials = [
 	`<a href="https://lajbel.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>`,
 	`<a href="https://github.com/lajbel" target="_blank"><i class="fa-brands fa-github-alt"></i></a>`,
-	`<a href="https://twitter.com/lajbelms" target="_blank"><i class="fa-brands fa-twitter"></i></a>`,
-	`<a href="https://www.instagram.com/daniivms/" target="_blank"><i class="fa-brands fa-instagram"></i></a>`,
+	`<a href="https://twitter.com/lajbel_land" target="_blank"><i class="fa-brands fa-twitter"></i></a>`,
 	`<a href="https://ko-fi.com/lajbel" target="_blank"><i class="fa-solid fa-mug-hot"></i></a>`,
 	`<a href="https://peerlist.io/lajbel" target="_blank"><i class="fa-solid fa-briefcase"></i></a>`,
 ];
