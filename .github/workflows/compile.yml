@@ -1,23 +1,23 @@
 name: Compile webpage with Lume
 
 on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+    push:
+        branches: [master]
+    pull_request:
+        branches: [master]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Setup repo
-        uses: actions/checkout@v2
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
 
-      - name: Setup Deno
-        uses: denolib/setup-deno@4df079f84f6c4ef488b04806df9af59e51d09bfb
-        with:
-          deno-version: v1.x
-          
-      - name: Lume build
-        run: deno run -A https://deno.land/x/lume@v1.3.0/ci.ts
+            - name: Setup Deno
+              uses: denolib/setup-deno@4df079f84f6c4ef488b04806df9af59e51d09bfb
+              with:
+                  deno-version: v1.x
+
+            - name: Lume build
+              run: deno run -A --no-check=remote https://deno.land/x/lume@v1.3.0/ci.ts
