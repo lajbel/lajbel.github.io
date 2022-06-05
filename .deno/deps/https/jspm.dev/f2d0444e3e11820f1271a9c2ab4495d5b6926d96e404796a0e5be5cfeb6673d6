@@ -1,0 +1,1 @@
+export { default } from "/npm:uc.micro@1.0.6/categories/P/regex!cjs";

@@ -7,7 +7,16 @@
 
 {% block page %}
 	<img class="avatar" src="{{ avatar }}"/>
-	<p><i class="fa-brands fa-discord"></i>lajbel#3662</p>
+	<p onclick="copyDiscord()" class="discord">
+        <i class="fa-brands fa-discord"></i> lajbel#3662
+    </p>
 	<p>{{ bio | safe }}</p>
 	<ul class="social">{% for social in socials %}<li class="outline">{{ social | safe }}</li>{% endfor %}</ul>
+
+    <script>
+        function copyDiscord() {
+            navigator.clipboard.writeText("lajbel#3662");
+            alert("Discord Copied");
+        }
+    </script>
 {% endblock %}

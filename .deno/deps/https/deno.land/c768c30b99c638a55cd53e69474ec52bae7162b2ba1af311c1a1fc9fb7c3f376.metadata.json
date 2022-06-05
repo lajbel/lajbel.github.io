@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-amz-version-id": "l6bVtzUEBhYLNjhC371zPjoQ67JR_xA1",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, immutable",
+    "etag": "\"45db618f6ffd38d98ba5ca48124671d3\"",
+    "content-length": "1430",
+    "x-amz-request-id": "68V8D6C77NSDQB2Y",
+    "x-amz-id-2": "VzcUiUbx3qRptIOC3dZbIOfF0MmYFfXZ2CBTLjasoZp7hi1zqcZN5PgqnbA9nN7NAC6kZDXCepQ=",
+    "vary": "Accept-Encoding",
+    "server": "deno/us-west1-a",
+    "last-modified": "Mon, 15 Nov 2021 12:43:11 GMT",
+    "content-type": "application/typescript; charset=utf-8"
+  },
+  "url": "https://deno.land/x/lume@v1.3.0/cli/upgrade.ts"
+}

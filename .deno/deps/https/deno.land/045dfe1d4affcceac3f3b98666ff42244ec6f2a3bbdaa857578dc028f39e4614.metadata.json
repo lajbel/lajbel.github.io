@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "deno/us-west1-a",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "last-modified": "Tue, 08 Jun 2021 22:08:17 GMT",
+    "etag": "W/\"96914b4509346e28ac55c9e0ff0a2f56\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "access-control-allow-origin": "*",
+    "x-amz-request-id": "R345D3HZFS81CAF4",
+    "vary": "Accept-Encoding",
+    "x-amz-id-2": "ZEjfiVqycRWLVAi6Jzb804K2pffgujxrvQnagwWk7MCXc722r+07sYaXmTmwH6Bqp38bc/NE5Rg=",
+    "x-amz-version-id": "yLaHBRVx2LpghJ1yMrhTy5p_TYnq4ZUc",
+    "content-type": "application/javascript"
+  },
+  "url": "https://deno.land/x/postcss_autoprefixer@0.1.1/lib/hacks/backdrop-filter.js"
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-version-id": "1cEsnQ.Op9amnrnvCllvbaMq6std17Eb",
+    "vary": "Accept-Encoding",
+    "x-amz-request-id": "68V5NB5YK8K5GRGA",
+    "server": "deno/us-west1-a",
+    "content-length": "6018",
+    "etag": "\"a9c2f6adfb9a0c7ccaf1a4d5d6dfa6d3\"",
+    "content-type": "application/typescript; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "x-amz-id-2": "JiaW3ZZM5Iz3Pv44tE0NugBYh1u/HKy5cz+edSADUGdK6/3iw39N5HjWK9Sc4yiHYs2Z7P8En74=",
+    "last-modified": "Mon, 01 Nov 2021 15:00:30 GMT"
+  },
+  "url": "https://deno.land/x/cliffy@v0.20.1/prompt/checkbox.ts"
+}

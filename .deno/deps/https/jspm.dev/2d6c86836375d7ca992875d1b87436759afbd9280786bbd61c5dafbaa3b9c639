@@ -1,0 +1,5 @@
+import "/npm:uc.micro@1/properties/Any/regex!cjs";
+import "/npm:uc.micro@1/categories/Cc/regex!cjs";
+import "/npm:uc.micro@1/categories/Z/regex!cjs";
+import "/npm:uc.micro@1/categories/P/regex!cjs";
+export { default } from "/npm:linkify-it@3.0.3!cjs";

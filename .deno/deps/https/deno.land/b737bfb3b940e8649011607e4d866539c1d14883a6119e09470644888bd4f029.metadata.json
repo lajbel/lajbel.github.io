@@ -1,0 +1,11 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:37:15 GMT",
+    "server": "deno/us-west1-a",
+    "access-control-allow-origin": "*",
+    "location": "/x/velociraptor@1.5.0/cli.ts",
+    "x-deno-warning": "Implicitly using latest version (1.5.0) for https://deno.land/x/velociraptor/cli.ts",
+    "vary": "Accept-Encoding"
+  },
+  "url": "https://deno.land/x/velociraptor/cli.ts"
+}

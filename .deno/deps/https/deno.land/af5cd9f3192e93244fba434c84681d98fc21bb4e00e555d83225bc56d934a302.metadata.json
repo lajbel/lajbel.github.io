@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "vary": "Accept-Encoding",
+    "etag": "\"93554c27025c888d08d15e21eddae272\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-id-2": "b4EeZPBbvZwLhU72p376GYYdQ2e8fjbkUVAKHsCzf9ukRUd5RIkyvA29p1tydEdQU2ApVLXAVao=",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "last-modified": "Mon, 07 Mar 2022 09:39:02 GMT",
+    "x-amz-version-id": "ZDdQI_4.Y9ULO4cNeEjzTSY_aDAT5b5v",
+    "server": "deno/us-west1-a",
+    "content-length": "812",
+    "x-amz-request-id": "DZR7KV3V0SB5CB5F"
+  },
+  "url": "https://deno.land/x/velociraptor@1.5.0/src/merge_params.ts"
+}

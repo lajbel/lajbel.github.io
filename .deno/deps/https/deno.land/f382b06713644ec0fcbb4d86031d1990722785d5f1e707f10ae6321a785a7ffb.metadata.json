@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "vary": "Accept-Encoding",
+    "x-amz-id-2": "lEx89G/cfVG4y2X0HAjZuglvWl7Ho1tR3IbiJ3Ie/tgUyUHeZRWZXP1UowN3nyDm5W61nl9TABI=",
+    "x-amz-version-id": "qA_6HNHlNMNWeD3qwq3oB45IlGiBI.fd",
+    "cache-control": "public, max-age=31536000, immutable",
+    "access-control-allow-origin": "*",
+    "content-type": "application/javascript",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "etag": "W/\"92ae1b036c9e10935bb19b4c68230820\"",
+    "last-modified": "Tue, 08 Jun 2021 21:40:16 GMT",
+    "x-amz-request-id": "R346K99JZEH1A7W8",
+    "server": "deno/us-west1-a"
+  },
+  "url": "https://deno.land/x/postcss@8.3.0.1/lib/comment.js"
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-stored-content-encoding": "br",
+    "x-guploader-uploadid": "ADPycdt9GdzvsKIZCV6GUn9YL1JVFEqO1c9lUtTNOvlJO4JUWQrInXV9Y60zZjyvsuqljZkwG-AXBc2kt3w1y7zE43aRHg",
+    "accept-ranges": "bytes",
+    "x-goog-storage-class": "STANDARD",
+    "content-type": "application/javascript; charset=utf-8",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-length": "76",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-generation": "1620292693642180",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "etag": "\"4ed077b83d2733e1af45a8a03689d2b6\"",
+    "cross-origin-resource-policy": "cross-origin",
+    "access-control-allow-origin": "*",
+    "last-modified": "Thu, 06 May 2021 09:18:13 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-hash": "crc32c=Oe2uKg==,md5=TtB3uD0nM+GvRaigNonStg==",
+    "server": "UploadServer",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-metageneration": "2"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/flexbox"
+}

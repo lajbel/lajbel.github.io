@@ -1,0 +1,5 @@
+import "/npm:mdurl@1.0.1/encode!cjs";
+import "/npm:mdurl@1.0.1/decode!cjs";
+import "/npm:mdurl@1.0.1/parse!cjs";
+export * from "/npm:mdurl@1.0.1!cjs";
+export { default } from "/npm:mdurl@1.0.1!cjs";

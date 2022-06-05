@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-stored-content-encoding": "br",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "etag": "\"5ea6076ad1cf891e88865216ae51471c\"",
+    "x-goog-hash": "crc32c=pVhbiw==,md5=XqYHatHPiR6IhlIWrlFHHA==",
+    "x-goog-generation": "1620292694341281",
+    "content-type": "application/javascript; charset=utf-8",
+    "server": "UploadServer",
+    "last-modified": "Thu, 06 May 2021 09:18:14 GMT",
+    "accept-ranges": "bytes",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-metageneration": "2",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-length": "80",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-guploader-uploadid": "ADPycdv59qeZwvHxc55_7vQK8Vvi35rEzWrys7kf_2XhC6bEV0WOhjzuP4MQhO4tK4gyCQrbWl7AgtmpFNoPBVaVdRT5",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-gradients"
+}

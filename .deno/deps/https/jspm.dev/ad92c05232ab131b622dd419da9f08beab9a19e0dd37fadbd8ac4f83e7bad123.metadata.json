@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-hash": "crc32c=T2qgTw==,md5=ogWl62RUncc7CJ5t5KiI2g==",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-metageneration": "2",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-guploader-uploadid": "ADPycdsc-ILR8THodTDCOWhnKnee_hhCY6FZYlvHJa_QXsN7sa5Lc3garkdXQZ4jZmCXYbYYAFnOdDd6Y_N_4TBk3fmVzA",
+    "server": "UploadServer",
+    "last-modified": "Thu, 06 May 2021 09:18:15 GMT",
+    "etag": "\"a205a5eb64549dc73b089e6de4a888da\"",
+    "accept-ranges": "bytes",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-generation": "1620292695756055",
+    "access-control-allow-origin": "*",
+    "cross-origin-resource-policy": "cross-origin",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-stored-content-length": "77",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-encoding": "br",
+    "content-type": "application/javascript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-masks"
+}

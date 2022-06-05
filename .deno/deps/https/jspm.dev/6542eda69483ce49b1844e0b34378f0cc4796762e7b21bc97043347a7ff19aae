@@ -1,0 +1,30 @@
+var exports$1 = {};
+exports$1 = {
+  A: "ie",
+  B: "edge",
+  C: "firefox",
+  D: "chrome",
+  E: "safari",
+  F: "opera",
+  G: "ios_saf",
+  H: "op_mini",
+  I: "android",
+  J: "bb",
+  K: "op_mob",
+  L: "and_chr",
+  M: "and_ff",
+  N: "ie_mob",
+  O: "and_uc",
+  P: "samsung",
+  Q: "and_qq",
+  R: "baidu",
+  S: "kaios"
+};
+var _browsers = exports$1;
+
+var exports = {};
+exports.browsers = _browsers;
+
+export { exports as e };
+
+//# sourceMappingURL=fbd512e5.js.map

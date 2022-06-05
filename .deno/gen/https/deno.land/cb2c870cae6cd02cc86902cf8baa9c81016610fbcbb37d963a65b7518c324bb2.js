@@ -1,0 +1,23 @@
+import { Command } from "../command.ts";
+import { dim, italic } from "../deps.ts";
+import { ZshCompletionsGenerator } from "./_zsh_completions_generator.ts";
+export class ZshCompletionsCommand extends Command {
+    #cmd;
+    constructor(cmd) {
+        super();
+        this.#cmd = cmd;
+        this.description(() => {
+            const baseCmd = this.#cmd || this.getMainCommand();
+            return `Generate shell completions for zsh.
+
+To enable zsh completions for this program add following line to your ${dim(italic("~/.zshrc"))}:
+
+    ${dim(italic(`source <(${baseCmd.getPath()} completions zsh)`))}`;
+        })
+            .action(() => {
+            const baseCmd = this.#cmd || this.getMainCommand();
+            Deno.stdout.writeSync(new TextEncoder().encode(ZshCompletionsGenerator.generate(baseCmd)));
+        });
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoienNoLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsienNoLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBRSxPQUFPLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFDeEMsT0FBTyxFQUFFLEdBQUcsRUFBRSxNQUFNLEVBQUUsTUFBTSxZQUFZLENBQUM7QUFDekMsT0FBTyxFQUFFLHVCQUF1QixFQUFFLE1BQU0saUNBQWlDLENBQUM7QUFHMUUsTUFBTSxPQUFPLHFCQUFzQixTQUFRLE9BQWE7SUFDdEQsSUFBSSxDQUFXO0lBQ2YsWUFBbUIsR0FBYTtRQUM5QixLQUFLLEVBQUUsQ0FBQztRQUNSLElBQUksQ0FBQyxJQUFJLEdBQUcsR0FBRyxDQUFDO1FBQ2hCLElBQUksQ0FBQyxXQUFXLENBQUMsR0FBRyxFQUFFO1lBQ3BCLE1BQU0sT0FBTyxHQUFHLElBQUksQ0FBQyxJQUFJLElBQUksSUFBSSxDQUFDLGNBQWMsRUFBRSxDQUFDO1lBQ25ELE9BQU87O3dFQUdMLEdBQUcsQ0FBQyxNQUFNLENBQUMsVUFBVSxDQUFDLENBQ3hCOztNQUVBLEdBQUcsQ0FBQyxNQUFNLENBQUMsWUFBWSxPQUFPLENBQUMsT0FBTyxFQUFFLG1CQUFtQixDQUFDLENBQUMsRUFBRSxDQUFDO1FBQ2xFLENBQUMsQ0FBQzthQUNDLE1BQU0sQ0FBQyxHQUFHLEVBQUU7WUFDWCxNQUFNLE9BQU8sR0FBRyxJQUFJLENBQUMsSUFBSSxJQUFJLElBQUksQ0FBQyxjQUFjLEVBQUUsQ0FBQztZQUNuRCxJQUFJLENBQUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxJQUFJLFdBQVcsRUFBRSxDQUFDLE1BQU0sQ0FDNUMsdUJBQXVCLENBQUMsUUFBUSxDQUFDLE9BQU8sQ0FBQyxDQUMxQyxDQUFDLENBQUM7UUFDTCxDQUFDLENBQUMsQ0FBQztJQUNQLENBQUM7Q0FDRiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbW1hbmQgfSBmcm9tIFwiLi4vY29tbWFuZC50c1wiO1xuaW1wb3J0IHsgZGltLCBpdGFsaWMgfSBmcm9tIFwiLi4vZGVwcy50c1wiO1xuaW1wb3J0IHsgWnNoQ29tcGxldGlvbnNHZW5lcmF0b3IgfSBmcm9tIFwiLi9fenNoX2NvbXBsZXRpb25zX2dlbmVyYXRvci50c1wiO1xuXG4vKiogR2VuZXJhdGVzIHpzaCBjb21wbGV0aW9ucyBzY3JpcHQuICovXG5leHBvcnQgY2xhc3MgWnNoQ29tcGxldGlvbnNDb21tYW5kIGV4dGVuZHMgQ29tbWFuZDx2b2lkPiB7XG4gICNjbWQ/OiBDb21tYW5kO1xuICBwdWJsaWMgY29uc3RydWN0b3IoY21kPzogQ29tbWFuZCkge1xuICAgIHN1cGVyKCk7XG4gICAgdGhpcy4jY21kID0gY21kO1xuICAgIHRoaXMuZGVzY3JpcHRpb24oKCkgPT4ge1xuICAgICAgY29uc3QgYmFzZUNtZCA9IHRoaXMuI2NtZCB8fCB0aGlzLmdldE1haW5Db21tYW5kKCk7XG4gICAgICByZXR1cm4gYEdlbmVyYXRlIHNoZWxsIGNvbXBsZXRpb25zIGZvciB6c2guXG5cblRvIGVuYWJsZSB6c2ggY29tcGxldGlvbnMgZm9yIHRoaXMgcHJvZ3JhbSBhZGQgZm9sbG93aW5nIGxpbmUgdG8geW91ciAke1xuICAgICAgICBkaW0oaXRhbGljKFwifi8uenNocmNcIikpXG4gICAgICB9OlxuXG4gICAgJHtkaW0oaXRhbGljKGBzb3VyY2UgPCgke2Jhc2VDbWQuZ2V0UGF0aCgpfSBjb21wbGV0aW9ucyB6c2gpYCkpfWA7XG4gICAgfSlcbiAgICAgIC5hY3Rpb24oKCkgPT4ge1xuICAgICAgICBjb25zdCBiYXNlQ21kID0gdGhpcy4jY21kIHx8IHRoaXMuZ2V0TWFpbkNvbW1hbmQoKTtcbiAgICAgICAgRGVuby5zdGRvdXQud3JpdGVTeW5jKG5ldyBUZXh0RW5jb2RlcigpLmVuY29kZShcbiAgICAgICAgICBac2hDb21wbGV0aW9uc0dlbmVyYXRvci5nZW5lcmF0ZShiYXNlQ21kKSxcbiAgICAgICAgKSk7XG4gICAgICB9KTtcbiAgfVxufVxuIl19

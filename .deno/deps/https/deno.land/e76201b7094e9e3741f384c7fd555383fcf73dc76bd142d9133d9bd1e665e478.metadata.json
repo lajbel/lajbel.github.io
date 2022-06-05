@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "cache-control": "public, max-age=31536000, immutable",
+    "access-control-allow-origin": "*",
+    "content-length": "2095",
+    "server": "deno/us-west1-a",
+    "last-modified": "Mon, 25 Oct 2021 07:05:21 GMT",
+    "x-amz-id-2": "Gube9pe9psxzhk6lIuuzvFgqaQDvcf9s7ZS8MYmry9kFNeFGp35gH2tyMdoHAIQEv34Or6GxqHw=",
+    "etag": "\"830f78536c86604b6b90fecf54e8a70a\"",
+    "content-type": "application/typescript; charset=utf-8",
+    "x-amz-request-id": "VF96N99YDCQZT0MZ",
+    "date": "Sun, 05 Jun 2022 21:38:07 GMT",
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "XJvjKXWXltLR4O4s8hrN.E7ucAcRpXAi"
+  },
+  "url": "https://deno.land/std@0.113.0/fs/ensure_symlink.ts"
+}

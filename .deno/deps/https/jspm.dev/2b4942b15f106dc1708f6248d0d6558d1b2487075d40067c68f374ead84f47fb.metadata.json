@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "etag": "\"d46499a78f064b1a641ee05b478239b3\"",
+    "server": "UploadServer",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-stored-content-length": "71",
+    "x-goog-generation": "1591238443563823",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "cache-control": "public, max-age=200",
+    "access-control-allow-origin": "*",
+    "x-goog-metageneration": "2",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-hash": "crc32c=E7XjrA==,md5=1GSZp48GSxpkHuBbR4I5sw==",
+    "content-language": "en",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "expires": "Sun, 05 Jun 2022 21:41:26 GMT",
+    "content-type": "application/javascript",
+    "x-guploader-uploadid": "ADPycdugQVheKo5QeM2GxwPJgEWYKve-F4UN8fYs0HQV7L3Sp9nM1lt6PaNg5-rYnKS8VVwE3YdporKhZbw0oPPOUFyHRg",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "last-modified": "Thu, 04 Jun 2020 02:40:43 GMT"
+  },
+  "url": "https://jspm.dev/npm:uc.micro@1/categories/Z/regex!cjs"
+}

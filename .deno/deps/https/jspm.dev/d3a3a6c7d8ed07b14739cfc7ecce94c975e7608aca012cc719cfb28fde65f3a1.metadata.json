@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-hash": "crc32c=Z8/fwg==,md5=NWoz6oPL9SAif9Jm1LrfaQ==",
+    "server": "UploadServer",
+    "x-goog-metageneration": "2",
+    "x-goog-stored-content-encoding": "br",
+    "x-guploader-uploadid": "ADPycduiiYA5jtzCnwCYBPn04J8yYRJpt-k82dFSz5RqhCVBTRIPVkQeJ6UxbBi-iH_1bAeg_mjWYYucLxaUuC8JzUFrDQ",
+    "x-goog-storage-class": "STANDARD",
+    "etag": "\"356a33ea83cbf520227fd266d4badf69\"",
+    "access-control-allow-origin": "*",
+    "x-goog-generation": "1633168338862842",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "last-modified": "Sat, 02 Oct 2021 09:52:18 GMT",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-goog-stored-content-length": "1665"
+  },
+  "url": "https://jspm.dev/npm:node-releases@1.1.77/data/processed/envs.json!cjs"
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "content-language": "en",
+    "server": "UploadServer",
+    "access-control-allow-origin": "*",
+    "x-goog-storage-class": "STANDARD",
+    "last-modified": "Thu, 31 Dec 2020 22:00:33 GMT",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-length": "2481",
+    "accept-ranges": "bytes",
+    "x-goog-generation": "1609452033354628",
+    "etag": "\"8f1af626a99afe44c9c8180fb213b7af\"",
+    "x-goog-metageneration": "2",
+    "x-goog-hash": "crc32c=yg2r0Q==,md5=jxr2Jqma/kTJyBgPshO3rw==",
+    "content-type": "application/javascript",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-stored-content-encoding": "br",
+    "x-guploader-uploadid": "ADPycdtvX3Sw4E2T0WIB-2SkQuu2ZkwVr3eZDukFxhsuOvZVMxMYHBPMWpQ15J0Uuuxj54uyl9VwFL5c1ImxqAlMUgZQRA",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT"
+  },
+  "url": "https://jspm.dev/npm:markdown-it-attrs@4.0.0/utils!cjs"
+}

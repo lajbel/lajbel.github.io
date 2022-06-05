@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "etag": "W/\"4c07dc4957b560ea872fd78401b8a6d9\"",
+    "access-control-allow-origin": "*",
+    "last-modified": "Thu, 21 Oct 2021 12:43:51 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-type": "application/javascript",
+    "x-amz-id-2": "+7SoprxKNP41TVbz4mrlf0fDqN6aOo7I8mkqnyyZECo/7SN5vOaj8Yx/BrQtXKQnMwxoeiB76oE=",
+    "vary": "Accept-Encoding",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "x-amz-version-id": "QBJEzWWS8jyuukbW6AKMZKcILX3bj0nr",
+    "server": "deno/us-west1-a",
+    "x-amz-request-id": "R34BS3WFF741ZE6G"
+  },
+  "url": "https://deno.land/x/postcss@8.3.11/lib/map-generator.js"
+}

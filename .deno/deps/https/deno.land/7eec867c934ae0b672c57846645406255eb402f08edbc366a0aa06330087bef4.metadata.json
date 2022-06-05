@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/javascript",
+    "cache-control": "public, max-age=31536000, immutable",
+    "server": "deno/us-west1-a",
+    "last-modified": "Thu, 21 Oct 2021 12:43:51 GMT",
+    "x-amz-request-id": "R3403VKRQ77PEMV7",
+    "x-amz-version-id": ".fyIoyBYV38O6tv.Dh7KHT19eJo0Zeh4",
+    "etag": "W/\"2891ec589a93816ad6079d37682baec1\"",
+    "x-amz-id-2": "yUT6dzgVzIrZ7EC4+iJNyHvA/W5n/y4uXhDoSTn96E+NVJjYM1eENmqrcw9KeyCyJqah6iWYjoY=",
+    "vary": "Accept-Encoding",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://deno.land/x/postcss@8.3.11/lib/terminal-highlight.js"
+}

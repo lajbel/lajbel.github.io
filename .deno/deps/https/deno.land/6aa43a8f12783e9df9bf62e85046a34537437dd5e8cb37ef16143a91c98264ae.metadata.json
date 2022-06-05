@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-amz-request-id": "R349KVSMEEQ0GY90",
+    "etag": "W/\"0846a7ff8771d7edf8275ab29f6be88b\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "access-control-allow-origin": "*",
+    "last-modified": "Tue, 08 Jun 2021 22:08:17 GMT",
+    "content-type": "application/javascript",
+    "server": "deno/us-west1-a",
+    "x-amz-id-2": "SHvCZs6bDT374UEdHpuxhBXa7XZO+C8cDkjcB4ItXnIzaqZ5mcCYrGpDj/7g9ObI2LMYTvXS2h4=",
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "yjGGsQ3d.1tD5sgSc9xRnGdygesRoabl",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT"
+  },
+  "url": "https://deno.land/x/postcss_autoprefixer@0.1.1/lib/hacks/display-grid.js"
+}

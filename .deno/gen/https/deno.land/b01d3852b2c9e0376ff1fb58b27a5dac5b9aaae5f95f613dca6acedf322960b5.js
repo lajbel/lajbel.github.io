@@ -1,0 +1,2 @@
+export * from "https://deno.land/x/cliffy@v0.20.1/mod.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvZGVwcy9jbGlmZnkudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImh0dHBzOi8vZGVuby5sYW5kL3gvY2xpZmZ5QHYwLjIwLjEvbW9kLnRzXCI7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6ImNBQWMsQ0FBMkMifQ==

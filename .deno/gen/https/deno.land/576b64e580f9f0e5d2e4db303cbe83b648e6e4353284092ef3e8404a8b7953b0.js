@@ -1,0 +1,32 @@
+// Copyright 2018-2021 the Deno authors. All rights reserved. MIT license.
+import { Hash } from "./_wasm/hash.ts";
+/** @deprecated */ export const supportedAlgorithms = [
+    "md2",
+    "md4",
+    "md5",
+    "ripemd160",
+    "ripemd320",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512",
+    "sha3-224",
+    "sha3-256",
+    "sha3-384",
+    "sha3-512",
+    "keccak224",
+    "keccak256",
+    "keccak384",
+    "keccak512",
+    "blake3", 
+];
+/**
+ * Creates a new `Hash` instance.
+ *
+ * @param algorithm name of hash algorithm to use
+ * @deprecated
+ */ export function createHash(algorithm) {
+    return new Hash(algorithm);
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3N0ZEAwLjExMy4wL2hhc2gvbW9kLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIENvcHlyaWdodCAyMDE4LTIwMjEgdGhlIERlbm8gYXV0aG9ycy4gQWxsIHJpZ2h0cyByZXNlcnZlZC4gTUlUIGxpY2Vuc2UuXG5cbmltcG9ydCB7IEhhc2ggfSBmcm9tIFwiLi9fd2FzbS9oYXNoLnRzXCI7XG5pbXBvcnQgdHlwZSB7IEhhc2hlciB9IGZyb20gXCIuL2hhc2hlci50c1wiO1xuXG4vKiogQGRlcHJlY2F0ZWQgKi9cbmV4cG9ydCB0eXBlIHsgSGFzaGVyIH0gZnJvbSBcIi4vaGFzaGVyLnRzXCI7XG4vKiogQGRlcHJlY2F0ZWQgKi9cbmV4cG9ydCBjb25zdCBzdXBwb3J0ZWRBbGdvcml0aG1zID0gW1xuICBcIm1kMlwiLFxuICBcIm1kNFwiLFxuICBcIm1kNVwiLFxuICBcInJpcGVtZDE2MFwiLFxuICBcInJpcGVtZDMyMFwiLFxuICBcInNoYTFcIixcbiAgXCJzaGEyMjRcIixcbiAgXCJzaGEyNTZcIixcbiAgXCJzaGEzODRcIixcbiAgXCJzaGE1MTJcIixcbiAgXCJzaGEzLTIyNFwiLFxuICBcInNoYTMtMjU2XCIsXG4gIFwic2hhMy0zODRcIixcbiAgXCJzaGEzLTUxMlwiLFxuICBcImtlY2NhazIyNFwiLFxuICBcImtlY2NhazI1NlwiLFxuICBcImtlY2NhazM4NFwiLFxuICBcImtlY2NhazUxMlwiLFxuICBcImJsYWtlM1wiLFxuXSBhcyBjb25zdDtcbi8qKiBAZGVwcmVjYXRlZCAqL1xuZXhwb3J0IHR5cGUgU3VwcG9ydGVkQWxnb3JpdGhtID0gdHlwZW9mIHN1cHBvcnRlZEFsZ29yaXRobXNbbnVtYmVyXTtcbi8qKlxuICogQ3JlYXRlcyBhIG5ldyBgSGFzaGAgaW5zdGFuY2UuXG4gKlxuICogQHBhcmFtIGFsZ29yaXRobSBuYW1lIG9mIGhhc2ggYWxnb3JpdGhtIHRvIHVzZVxuICogQGRlcHJlY2F0ZWRcbiAqL1xuZXhwb3J0IGZ1bmN0aW9uIGNyZWF0ZUhhc2goYWxnb3JpdGhtOiBTdXBwb3J0ZWRBbGdvcml0aG0pOiBIYXNoZXIge1xuICByZXR1cm4gbmV3IEhhc2goYWxnb3JpdGhtIGFzIHN0cmluZyk7XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsRUFBMEUsQUFBMUUsd0VBQTBFO0FBRTFFLE1BQU0sR0FBRyxJQUFJLFFBQVEsQ0FBaUI7QUFLdEMsRUFBa0IsQUFBbEIsY0FBa0IsQUFBbEIsRUFBa0IsQ0FDbEIsTUFBTSxDQUFDLEtBQUssQ0FBQyxtQkFBbUIsR0FBRyxDQUFDO0lBQ2xDLENBQUs7SUFDTCxDQUFLO0lBQ0wsQ0FBSztJQUNMLENBQVc7SUFDWCxDQUFXO0lBQ1gsQ0FBTTtJQUNOLENBQVE7SUFDUixDQUFRO0lBQ1IsQ0FBUTtJQUNSLENBQVE7SUFDUixDQUFVO0lBQ1YsQ0FBVTtJQUNWLENBQVU7SUFDVixDQUFVO0lBQ1YsQ0FBVztJQUNYLENBQVc7SUFDWCxDQUFXO0lBQ1gsQ0FBVztJQUNYLENBQVE7QUFDVixDQUFDO0FBR0QsRUFLRyxBQUxIOzs7OztDQUtHLEFBTEgsRUFLRyxDQUNILE1BQU0sVUFBVSxVQUFVLENBQUMsU0FBNkIsRUFBVSxDQUFDO0lBQ2pFLE1BQU0sQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLFNBQVM7QUFDM0IsQ0FBQyJ9

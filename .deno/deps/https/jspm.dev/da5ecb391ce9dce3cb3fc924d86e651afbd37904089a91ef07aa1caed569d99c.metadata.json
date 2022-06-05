@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-allow-origin": "*",
+    "x-guploader-uploadid": "ADPycdu9IYPd9ZHDv5zDyQgJLFbAfP9NRmpIwa2X7xh0ib4S51G6zgIRvzN649lubeefLYIpfFOFEEA4zdl2aLKXs-88gQ",
+    "content-type": "application/javascript; charset=utf-8",
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "last-modified": "Thu, 06 May 2021 09:18:14 GMT",
+    "x-goog-metageneration": "2",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-generation": "1620292694520999",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "server": "UploadServer",
+    "x-goog-hash": "crc32c=CZBSSw==,md5=Ynx2egioSr4SF7TfNAtHZQ==",
+    "x-goog-stored-content-length": "81",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "etag": "\"627c767a08a84abe1217b4df340b4765\"",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-color-adjust"
+}

@@ -1,0 +1,7 @@
+import "/npm:uc.micro@1.0.6/properties/Any/regex!cjs";
+import "/npm:uc.micro@1.0.6/categories/Cc/regex!cjs";
+import "/npm:uc.micro@1.0.6/categories/Cf/regex!cjs";
+import "/npm:uc.micro@1.0.6/categories/P/regex!cjs";
+import "/npm:uc.micro@1.0.6/categories/Z/regex!cjs";
+export * from "/npm:uc.micro@1.0.6!cjs";
+export { default } from "/npm:uc.micro@1.0.6!cjs";

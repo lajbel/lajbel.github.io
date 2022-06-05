@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "deno/us-west1-a",
+    "date": "Sun, 05 Jun 2022 21:37:52 GMT",
+    "x-amz-id-2": "j4XNtE1Y1f3uTVBrcL4YkoT6+KErhQ2YQJaMrtPjfGQ9K+Vl0wcVzM87W3ldtVn1X91+WL2OL7g=",
+    "x-amz-version-id": "wFvRiLUjLhwtLHbJhotlR0FRoB2dhnFG",
+    "access-control-allow-origin": "*",
+    "content-length": "61",
+    "etag": "\"7b36d7b764863848075e62e9a0f67706\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-request-id": "4Q5KD63RRA5TCYCT",
+    "content-type": "application/typescript; charset=utf-8",
+    "vary": "Accept-Encoding",
+    "last-modified": "Mon, 15 Nov 2021 12:43:11 GMT"
+  },
+  "url": "https://deno.land/x/lume@v1.3.0/deps/colors.ts"
+}

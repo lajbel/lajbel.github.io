@@ -1,0 +1,2 @@
+export * from "https://deno.land/std@0.113.0/fmt/colors.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvZGVwcy9jb2xvcnMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImh0dHBzOi8vZGVuby5sYW5kL3N0ZEAwLjExMy4wL2ZtdC9jb2xvcnMudHNcIjtcbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiY0FBYyxDQUE2QyJ9

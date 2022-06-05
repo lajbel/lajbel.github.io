@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-version-id": "rfAR_iNjCZ.Sy2Np03LDMgXcLH6zfIOH",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "server": "deno/us-west1-a",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "content-length": "1360",
+    "content-type": "application/typescript; charset=utf-8",
+    "etag": "\"e2e46a6e5ba1bb1dc93fcab10c9b827d\"",
+    "x-amz-id-2": "h6nQsysIDQf3/StSQaRhucWqIw1oved/SHfO2wAOi2t8Q7jv3kIciCjTBOf9qCOVG9ynHDg70oU=",
+    "x-amz-request-id": "R34CJBHQ0B8QYYHK",
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Thu, 21 Oct 2021 12:43:51 GMT"
+  },
+  "url": "https://deno.land/x/postcss@8.3.11/lib/comment.d.ts"
+}

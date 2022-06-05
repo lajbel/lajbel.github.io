@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-cf-id": "027PxNddcesdAhWcgGuktHsmLP-GhShSpDt7D-vzH8qeHz7BrhzQYw==",
+    "content-length": "1540",
+    "via": "1.1 27f6faf9790b5a2877fb528fa31f7922.cloudfront.net (CloudFront)",
+    "age": "562794",
+    "x-trace": "BFh2tMVi72",
+    "date": "Mon, 30 May 2022 09:17:22 GMT",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "vary": "Origin",
+    "content-type": "application/typescript",
+    "x-cache": "Hit from cloudfront",
+    "x-amz-cf-pop": "SEA73-P2",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0"
+  },
+  "url": "https://pgvngrezmtfnq2rnnpxt6dj53gjfjvvsclpf3wvqpswh4wck.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/DenoLand.ts"
+}

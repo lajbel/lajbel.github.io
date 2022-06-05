@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/javascript; charset=utf-8",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-allow-origin": "*",
+    "server": "UploadServer",
+    "x-goog-generation": "1650549375843124",
+    "x-guploader-uploadid": "ADPycdsG9CDtPAmDfxPTQ-y8t09Ns4TzAx-c-DusJ_Jm6J4s9KtZ7e42HlrY2u6bRM-LcvdjjmoMEVsMJkR2GIX28kX07V9qSyhb",
+    "cache-control": "public, max-age=200",
+    "expires": "Sun, 05 Jun 2022 21:41:26 GMT",
+    "etag": "\"241e1eb7562f75954e051551868ed543\"",
+    "x-goog-stored-content-encoding": "br",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-hash": "crc32c=qXHvrg==,md5=JB4et1YvdZVOBRVRho7VQw==",
+    "access-control-expose-headers": "Content-Type",
+    "last-modified": "Thu, 21 Apr 2022 13:56:15 GMT",
+    "x-goog-stored-content-length": "101"
+  },
+  "url": "https://jspm.dev/npm:@jspm/core@2/nodelibs/punycode"
+}

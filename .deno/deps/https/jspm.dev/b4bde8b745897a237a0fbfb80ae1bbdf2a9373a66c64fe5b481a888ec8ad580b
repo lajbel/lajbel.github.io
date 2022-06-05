@@ -1,0 +1,42 @@
+import _encode from './npm:mdurl@1.0.1/encode!cjs';
+import _decode from './npm:mdurl@1.0.1/decode!cjs';
+import _parse from './npm:mdurl@1.0.1/parse!cjs';
+
+var exports = {};
+
+exports = function format(url) {
+  var result = "";
+  result += url.protocol || "";
+  result += url.slashes ? "//" : "";
+  result += url.auth ? url.auth + "@" : "";
+
+  if (url.hostname && url.hostname.indexOf(":") !== -1) {
+    // ipv6 address
+    result += "[" + url.hostname + "]";
+  } else {
+    result += url.hostname || "";
+  }
+
+  result += url.port ? ":" + url.port : "";
+  result += url.pathname || "";
+  result += url.search || "";
+  result += url.hash || "";
+  return result;
+};
+
+var _format = exports;
+
+var exports$1 = {};
+exports$1.encode = _encode;
+exports$1.decode = _decode;
+exports$1.format = _format;
+exports$1.parse = _parse;
+const encode = exports$1.encode,
+      decode = exports$1.decode,
+      format = exports$1.format,
+      parse = exports$1.parse;
+
+export default exports$1;
+export { decode, encode, format, parse };
+
+//# sourceMappingURL=npm:mdurl@1.0.1!cjs.map

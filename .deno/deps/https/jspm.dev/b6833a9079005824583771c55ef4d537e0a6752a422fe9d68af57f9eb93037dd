@@ -1,0 +1,4 @@
+import "/npm:caniuse-lite@1.0.30001346/_/fbd512e5.js";
+import "/npm:caniuse-lite@1.0.30001346/_/f12477f6.js";
+export * from "/npm:caniuse-lite@1.0.30001346/dist/unpacker/agents!cjs";
+export { default } from "/npm:caniuse-lite@1.0.30001346/dist/unpacker/agents!cjs";

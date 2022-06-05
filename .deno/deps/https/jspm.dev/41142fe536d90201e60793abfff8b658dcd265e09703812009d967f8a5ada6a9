@@ -1,0 +1,34 @@
+import { e as exports$1 } from '../../_/98efe914.js';
+
+var exports = {};
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = unpackRegion;
+var _browsers = exports$1;
+
+function unpackRegion(packed) {
+  return Object.keys(packed).reduce(function (list, browser) {
+    var data = packed[browser];
+    list[_browsers.browsers[browser]] = Object.keys(data).reduce(function (memo, key) {
+      var stats = data[key];
+
+      if (key === "_") {
+        stats.split(" ").forEach(function (version) {
+          return memo[version] = null;
+        });
+      } else {
+        memo[key] = stats;
+      }
+
+      return memo;
+    }, {});
+    return list;
+  }, {});
+}
+const __esModule = exports.__esModule;
+
+export default exports;
+export { __esModule };
+
+//# sourceMappingURL=region!cjs.map

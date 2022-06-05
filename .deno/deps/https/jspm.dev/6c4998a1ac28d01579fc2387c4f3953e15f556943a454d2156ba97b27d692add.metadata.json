@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-storage-class": "STANDARD",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-guploader-uploadid": "ADPycduQonCdJdKVml0nWF8PN7x7RTFXnNorWZ5ObxvtofBAA-prDfi_NRySunOEx6ls3W24FxAht6oDLnhuOhQ3fzmueQ",
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-metageneration": "2",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-generation": "1620292697616743",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "server": "UploadServer",
+    "last-modified": "Thu, 06 May 2021 09:18:17 GMT",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-goog-hash": "crc32c=A3cpOw==,md5=yhOPplijXNncc+JpLDi4Gg==",
+    "cross-origin-resource-policy": "cross-origin",
+    "etag": "\"ca138fa658a35cd9dc73e2692c38b81a\"",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-length": "620"
+  },
+  "url": "https://jspm.dev/npm:caniuse-lite@1.0.30001223/data/features/css-crisp-edges!cjs"
+}

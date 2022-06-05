@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-amz-id-2": "ELlGPi3GR8WDb7B4hJ1wBTOWbuaQ3ynLNdisa6G79bhekW7rhf/8A/INXJpzlaNH1tN3VmKXcxk=",
+    "etag": "W/\"455b207d0ede62467265837ab785a6f9\"",
+    "last-modified": "Sun, 06 Jun 2021 03:59:48 GMT",
+    "access-control-allow-origin": "*",
+    "x-amz-version-id": "VQYTm3O.0sJ6Fl.LMmyhyA3MvnsjixSd",
+    "vary": "Accept-Encoding",
+    "server": "deno/us-west1-a",
+    "date": "Sun, 05 Jun 2022 21:38:07 GMT",
+    "content-type": "application/javascript",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-request-id": "VF9F77FDYJY8K6Q1"
+  },
+  "url": "https://deno.land/x/nunjucks@3.2.3/src/waterfall.js"
+}

@@ -1,0 +1,1 @@
+export { default } from "/npm:entities@2.1.0/lib/maps/entities.json";

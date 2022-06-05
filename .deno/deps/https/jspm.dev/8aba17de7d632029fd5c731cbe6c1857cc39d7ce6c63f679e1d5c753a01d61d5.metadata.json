@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "etag": "\"232eb8eac627fa4f2277033a918f372e\"",
+    "cross-origin-resource-policy": "cross-origin",
+    "access-control-expose-headers": "Content-Type",
+    "server": "UploadServer",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-hash": "crc32c=sG8isg==,md5=Iy646sYn+k8idwM6kY83Lg==",
+    "access-control-allow-origin": "*",
+    "x-goog-storage-class": "STANDARD",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-generation": "1627946679584235",
+    "x-goog-metageneration": "2",
+    "x-goog-stored-content-length": "921",
+    "last-modified": "Mon, 02 Aug 2021 23:24:39 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-guploader-uploadid": "ADPycdvTYeIjrqmkVzrCt0CxmvNiddTUI7OGfdtwJNhh_C03rf-8dSpZzkhy42hDenD7sft_EniTQT2-CQASNjzeoJzewg",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "accept-ranges": "bytes",
+    "content-type": "application/javascript; charset=utf-8"
+  },
+  "url": "https://jspm.dev/npm:markdown-it@12.2.0/lib/rules_block/fence!cjs"
+}

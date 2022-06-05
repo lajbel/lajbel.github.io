@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "access-control-allow-headers": "*",
+    "connection": "keep-alive",
+    "vary": "Accept",
+    "access-control-allow-origin": "*",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "content-length": "99",
+    "content-type": "text/plain; charset=utf-8",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "access-control-allow-methods": "GET,POST",
+    "location": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/fmt/colors.ts"
+  },
+  "url": "https://x.nest.land/std@0.97.0/fmt/colors.ts"
+}

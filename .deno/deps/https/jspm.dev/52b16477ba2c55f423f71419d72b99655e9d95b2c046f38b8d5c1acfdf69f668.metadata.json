@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "x-goog-storage-class": "STANDARD",
+    "server": "UploadServer",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-stored-content-length": "59",
+    "accept-ranges": "bytes",
+    "x-goog-generation": "1599818769779312",
+    "x-goog-stored-content-encoding": "br",
+    "content-language": "en",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "content-type": "application/javascript",
+    "x-goog-hash": "crc32c=h5AiKQ==,md5=qTrT1E7kCGf3w4fZTZJMGw==",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2",
+    "access-control-allow-origin": "*",
+    "x-guploader-uploadid": "ADPycdt6Zt0C-Ka2ss9v9AYLPp6OwCQH6I87bLAsXq3qUzPzFWy5EZl5fXUoAyUGqwQfxcupIvZiE9_xvvCm6LF-_kKBnQ",
+    "last-modified": "Fri, 11 Sep 2020 10:06:09 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "etag": "\"a93ad3d44ee40867f7c387d94d924c1b\"",
+    "access-control-expose-headers": "Content-Type"
+  },
+  "url": "https://jspm.dev/markdown-it-deflist@2.1.0"
+}

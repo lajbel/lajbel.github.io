@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-length": "1865",
+    "date": "Sun, 05 Jun 2022 21:38:07 GMT",
+    "vary": "Accept-Encoding",
+    "content-type": "application/typescript; charset=utf-8",
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Mon, 25 Oct 2021 07:05:21 GMT",
+    "access-control-allow-origin": "*",
+    "etag": "\"2e99bcc81b75b3baf366c0c9b98e75c6\"",
+    "x-amz-request-id": "VF9DHP23VA65HPBH",
+    "x-amz-version-id": "zo1d6Z.ORSCqSFyGKN98wqOQomnrS0ZC",
+    "x-amz-id-2": "IH7AKKR1+I77NjrF+mP2hXkUzRgrl111tNtJrKYc2cfn7GF2LINWvauxZfoTeBovPYfhpFmZTAg=",
+    "server": "deno/us-west1-a"
+  },
+  "url": "https://deno.land/std@0.113.0/fs/ensure_file.ts"
+}

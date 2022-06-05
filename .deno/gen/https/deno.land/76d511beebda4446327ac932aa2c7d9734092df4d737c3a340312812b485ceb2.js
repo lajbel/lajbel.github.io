@@ -1,0 +1,2 @@
+export { getNetworkAddr as default } from "https://deno.land/x/local_ip@0.0.3/mod.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvZGVwcy9sb2NhbF9pcC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBnZXROZXR3b3JrQWRkciBhcyBkZWZhdWx0IH0gZnJvbSBcImh0dHBzOi8vZGVuby5sYW5kL3gvbG9jYWxfaXBAMC4wLjMvbW9kLnRzXCI7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxHQUFHLGNBQWMsSUFBSSxPQUFPLFFBQVEsQ0FBMkMifQ==

@@ -1,0 +1,22 @@
+import _regex from './npm:uc.micro@1.0.6/properties/Any/regex!cjs';
+import _regex2 from './npm:uc.micro@1.0.6/categories/Cc/regex!cjs';
+import _regex3 from './npm:uc.micro@1.0.6/categories/Cf/regex!cjs';
+import _regex4 from './npm:uc.micro@1.0.6/categories/P/regex!cjs';
+import _regex5 from './npm:uc.micro@1.0.6/categories/Z/regex!cjs';
+
+var exports = {};
+exports.Any = _regex;
+exports.Cc = _regex2;
+exports.Cf = _regex3;
+exports.P = _regex4;
+exports.Z = _regex5;
+const Any = exports.Any,
+      Cc = exports.Cc,
+      Cf = exports.Cf,
+      P = exports.P,
+      Z = exports.Z;
+
+export default exports;
+export { Any, Cc, Cf, P, Z };
+
+//# sourceMappingURL=npm:uc.micro@1.0.6!cjs.map

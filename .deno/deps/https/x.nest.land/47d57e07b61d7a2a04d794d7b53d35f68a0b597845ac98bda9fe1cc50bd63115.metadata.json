@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "text/plain; charset=utf-8",
+    "vary": "Accept",
+    "access-control-allow-headers": "*",
+    "connection": "keep-alive",
+    "content-length": "104",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "location": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/testing/asserts.ts",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST"
+  },
+  "url": "https://x.nest.land/std@0.97.0/testing/asserts.ts"
+}

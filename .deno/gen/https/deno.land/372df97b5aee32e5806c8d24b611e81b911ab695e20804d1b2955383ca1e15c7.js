@@ -1,0 +1,14 @@
+import { StringType } from "../../../deps.ts";
+export class ScriptIdType extends StringType {
+    configData;
+    constructor(configData) {
+        super();
+        this.configData = configData;
+    }
+    complete() {
+        if (!this.configData || !this.configData.config?.scripts)
+            return [];
+        return Object.keys(this.configData.config.scripts);
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2NyaXB0X2lkX3R5cGUuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJzY3JpcHRfaWRfdHlwZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxPQUFPLEVBQUUsVUFBVSxFQUFFLE1BQU0sa0JBQWtCLENBQUM7QUFHOUMsTUFBTSxPQUFPLFlBQWEsU0FBUSxVQUFVO0lBQ3RCO0lBQXBCLFlBQW9CLFVBQTZCO1FBQy9DLEtBQUssRUFBRSxDQUFDO1FBRFUsZUFBVSxHQUFWLFVBQVUsQ0FBbUI7SUFFakQsQ0FBQztJQUVELFFBQVE7UUFDTixJQUFJLENBQUMsSUFBSSxDQUFDLFVBQVUsSUFBSSxDQUFDLElBQUksQ0FBQyxVQUFVLENBQUMsTUFBTSxFQUFFLE9BQU87WUFBRSxPQUFPLEVBQUUsQ0FBQztRQUNwRSxPQUFPLE1BQU0sQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUFDLFVBQVUsQ0FBQyxNQUFNLENBQUMsT0FBTyxDQUFDLENBQUM7SUFDckQsQ0FBQztDQUNGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgU3RyaW5nVHlwZSB9IGZyb20gXCIuLi8uLi8uLi9kZXBzLnRzXCI7XG5pbXBvcnQgeyBDb25maWdEYXRhIH0gZnJvbSBcIi4uLy4uL2xvYWRfY29uZmlnLnRzXCI7XG5cbmV4cG9ydCBjbGFzcyBTY3JpcHRJZFR5cGUgZXh0ZW5kcyBTdHJpbmdUeXBlIHtcbiAgY29uc3RydWN0b3IocHJpdmF0ZSBjb25maWdEYXRhOiBDb25maWdEYXRhIHwgbnVsbCkge1xuICAgIHN1cGVyKCk7XG4gIH1cblxuICBjb21wbGV0ZSgpOiBzdHJpbmdbXSB7XG4gICAgaWYgKCF0aGlzLmNvbmZpZ0RhdGEgfHwgIXRoaXMuY29uZmlnRGF0YS5jb25maWc/LnNjcmlwdHMpIHJldHVybiBbXTtcbiAgICByZXR1cm4gT2JqZWN0LmtleXModGhpcy5jb25maWdEYXRhLmNvbmZpZy5zY3JpcHRzKTtcbiAgfVxufVxuIl19

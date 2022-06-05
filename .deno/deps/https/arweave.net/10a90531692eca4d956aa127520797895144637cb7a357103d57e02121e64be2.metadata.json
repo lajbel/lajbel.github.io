@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "x-cache": "FunctionGeneratedResponse from cloudfront",
+    "x-amz-cf-id": "WkTsZ7GIyy3Q81UYvVOuWGTHKAxY5p0Fg-07tFS_AZWhi3LhSosRiA==",
+    "vary": "Origin",
+    "via": "1.1 0800f067ff646622f3e8e507cb9b52e8.cloudfront.net (CloudFront)",
+    "server": "CloudFront",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "x-amz-cf-pop": "SEA73-P2",
+    "location": "https://gvfoimasa2aoeoecwuhb2kssfesupybu3bkrt6w2xy6viembjoaq.arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/fmt/colors.ts",
+    "content-length": "0"
+  },
+  "url": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/fmt/colors.ts"
+}

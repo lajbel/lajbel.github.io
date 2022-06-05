@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "location": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/fs/exists.ts",
+    "content-length": "98",
+    "access-control-allow-methods": "GET,POST",
+    "connection": "keep-alive",
+    "content-type": "text/plain; charset=utf-8",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "*",
+    "vary": "Accept"
+  },
+  "url": "https://x.nest.land/std@0.97.0/fs/exists.ts"
+}

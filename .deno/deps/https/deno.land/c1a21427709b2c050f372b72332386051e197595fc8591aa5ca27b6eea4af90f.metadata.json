@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "ip6DCawu3pGwG.GwhC7._ZMFFBYul_qw",
+    "x-amz-id-2": "EVXIeuSJr3mVP0B/5SxGuvZvbDBzp1frfPXHr88+SFPLE5Xfl+HxGkr+zTAAgX6xkXtg+kA+WKo=",
+    "server": "deno/us-west1-a",
+    "x-amz-request-id": "61J914DAJCSPYFG8",
+    "access-control-allow-origin": "*",
+    "etag": "W/\"993c285d3c49bc7061bd50c81c8aa5ec\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "date": "Sun, 05 Jun 2022 21:38:13 GMT",
+    "last-modified": "Sat, 17 Apr 2021 17:06:05 GMT",
+    "content-type": "application/javascript"
+  },
+  "url": "https://deno.land/x/source_map@0.6.2/lib/mapping-list.js"
+}

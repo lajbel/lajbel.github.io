@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-guploader-uploadid": "ADPycdspJPxGleXLHIo_VEXxtD3SVwfsSHQ9kXJZLV3mNKEXpiSr0m9DiqIWEIt-5aHPh4VL64MWDBAqMuIaaJwR-YM2ig",
+    "x-goog-generation": "1620292695219341",
+    "x-goog-metageneration": "2",
+    "content-type": "application/javascript; charset=utf-8",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "accept-ranges": "bytes",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-storage-class": "STANDARD",
+    "last-modified": "Thu, 06 May 2021 09:18:15 GMT",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-stored-content-length": "77",
+    "x-goog-hash": "crc32c=7J1wbg==,md5=mDot7+VbwmhB1Fqtg81f5A==",
+    "etag": "\"983a2defe55bc26841d45aad83cd5fe4\"",
+    "cross-origin-resource-policy": "cross-origin",
+    "access-control-expose-headers": "Content-Type",
+    "access-control-allow-origin": "*",
+    "server": "UploadServer",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-boxshadow"
+}

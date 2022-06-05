@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-id-2": "MGVWgyoK8Tp5dNSW9qlxLc6+yO8WzK9KUVITS5k/ezfEi9ATMjKFunv7gkoXYfYh7E9QgOGW8zk=",
+    "last-modified": "Mon, 07 Mar 2022 09:39:02 GMT",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "x-amz-request-id": "DZRB2WNSQ74GBGKF",
+    "server": "deno/us-west1-a",
+    "access-control-allow-origin": "*",
+    "etag": "\"5063037eb357501e4ad35595d3c3c21c\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "vary": "Accept-Encoding",
+    "content-length": "2372",
+    "x-amz-version-id": "Wr40ZOPYjiQJlaRV0PxC_pTWlWv6865M"
+  },
+  "url": "https://deno.land/x/velociraptor@1.5.0/src/git_hooks.ts"
+}

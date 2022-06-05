@@ -1,0 +1,7 @@
+var exports = {};
+exports = /[\0-\x1F\x7F-\x9F]/;
+var _regex2 = exports;
+
+export default _regex2;
+
+//# sourceMappingURL=regex!cjs.map

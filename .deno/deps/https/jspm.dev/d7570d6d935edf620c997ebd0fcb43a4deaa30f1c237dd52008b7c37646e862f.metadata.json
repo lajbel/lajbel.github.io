@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/javascript; charset=utf-8",
+    "etag": "\"2a2072c67add49fb233e7181d10a196e\"",
+    "x-goog-hash": "crc32c=Xw/qKA==,md5=KiByxnrdSfsjPnGB0QoZbg==",
+    "x-goog-stored-content-length": "80",
+    "x-goog-stored-content-encoding": "br",
+    "x-guploader-uploadid": "ADPycdu5bVBR4Cp5ue-SYScAMDpQrfgtVptQWpn67LPJSKbsURxSuDlF9cSpA9ZF7EMHI5D_XuDjJ08dSL_9RkaK7lugzQ",
+    "x-goog-metageneration": "2",
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "last-modified": "Thu, 06 May 2021 09:18:15 GMT",
+    "server": "UploadServer",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-generation": "1620292695684904",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/background-clip-text"
+}

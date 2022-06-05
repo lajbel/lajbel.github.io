@@ -1,0 +1,133 @@
+import { e as exports$1 } from '../../_/186f5a67.js';
+import '../../../npm:entities@2.1/lib/maps/entities.json!cjs';
+import '../../../npm:uc.micro@1/categories/P/regex!cjs';
+import '../../../npm:mdurl@1!cjs';
+import '../../../npm:uc.micro@1!cjs';
+
+var exports = {};
+var unescapeAll = exports$1.unescapeAll;
+
+exports = function parseLinkDestination(str, pos, max) {
+  var code,
+      level,
+      lines = 0,
+      start = pos,
+      result = {
+    ok: false,
+    pos: 0,
+    lines: 0,
+    str: ""
+  };
+
+  if (str.charCodeAt(pos) === 60
+  /* < */
+  ) {
+      pos++;
+
+      while (pos < max) {
+        code = str.charCodeAt(pos);
+
+        if (code === 10
+        /* \n */
+        ) {
+            return result;
+          }
+
+        if (code === 60
+        /* < */
+        ) {
+            return result;
+          }
+
+        if (code === 62
+        /* > */
+        ) {
+            result.pos = pos + 1;
+            result.str = unescapeAll(str.slice(start + 1, pos));
+            result.ok = true;
+            return result;
+          }
+
+        if (code === 92
+        /* \ */
+        && pos + 1 < max) {
+          pos += 2;
+          continue;
+        }
+
+        pos++;
+      } // no closing '>'
+
+
+      return result;
+    } // this should be ... } else { ... branch
+
+
+  level = 0;
+
+  while (pos < max) {
+    code = str.charCodeAt(pos);
+
+    if (code === 32) {
+      break;
+    } // ascii control characters
+
+
+    if (code < 32 || code === 127) {
+      break;
+    }
+
+    if (code === 92
+    /* \ */
+    && pos + 1 < max) {
+      if (str.charCodeAt(pos + 1) === 32) {
+        break;
+      }
+
+      pos += 2;
+      continue;
+    }
+
+    if (code === 40
+    /* ( */
+    ) {
+        level++;
+
+        if (level > 32) {
+          return result;
+        }
+      }
+
+    if (code === 41
+    /* ) */
+    ) {
+        if (level === 0) {
+          break;
+        }
+
+        level--;
+      }
+
+    pos++;
+  }
+
+  if (start === pos) {
+    return result;
+  }
+
+  if (level !== 0) {
+    return result;
+  }
+
+  result.str = unescapeAll(str.slice(start, pos));
+  result.lines = lines;
+  result.pos = pos;
+  result.ok = true;
+  return result;
+};
+
+var _parse_link_destination = exports;
+
+export default _parse_link_destination;
+
+//# sourceMappingURL=parse_link_destination!cjs.map

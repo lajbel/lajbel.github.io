@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-hash": "crc32c=2G1ntg==,md5=+oM/aSA0LtOC0kM/PvQ1eA==",
+    "x-goog-stored-content-length": "80",
+    "last-modified": "Thu, 06 May 2021 09:18:13 GMT",
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "x-goog-generation": "1620292693551187",
+    "content-type": "application/javascript; charset=utf-8",
+    "access-control-expose-headers": "Content-Type",
+    "server": "UploadServer",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-stored-content-encoding": "br",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-storage-class": "STANDARD",
+    "cross-origin-resource-policy": "cross-origin",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-guploader-uploadid": "ADPycdvXID9ViENfnGtx7yq2YHXfG6nllEL2rNAXfW4Xz5Pc2nhdR9Hzty249kOkfw4YL1cvd0HOiTfk6G3niW5cBDCLyQ",
+    "etag": "\"fa833f6920342ed382d2433f3ef43578\"",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-metageneration": "2"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/transforms3d"
+}

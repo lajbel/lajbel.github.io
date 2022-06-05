@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "deno/us-west1-a",
+    "access-control-allow-origin": "*",
+    "vary": "Accept-Encoding",
+    "last-modified": "Tue, 28 Sep 2021 13:44:01 GMT",
+    "x-amz-id-2": "QQ5SBwjqJvh5SVQLW9/UxYcGXRyuU4lp3ZwzynxCgVx8heCGiuBV6OAsqcTCq94ZNJyZmm3Z6tg=",
+    "date": "Sun, 05 Jun 2022 21:38:13 GMT",
+    "content-length": "686",
+    "content-type": "application/typescript; charset=utf-8",
+    "etag": "\"d90b2c7ebf034b10c0c9c0b7173baea8\"",
+    "x-amz-request-id": "61J2HABDE2JXMCW0",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-version-id": "cmj6g0JU405VFUjSZ8K9woCpHdr4LKmI"
+  },
+  "url": "https://deno.land/std@0.109.0/node/_fs/_fs_rename.ts"
+}

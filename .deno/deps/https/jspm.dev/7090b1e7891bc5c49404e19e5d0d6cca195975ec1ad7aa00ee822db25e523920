@@ -1,0 +1,3 @@
+import "/npm:@jspm/core@2.0.0-beta.24/_/fddcf4e7.js";
+export * from "/npm:@jspm/core@2.0.0-beta.24/nodelibs/punycode";
+export { default } from "/npm:@jspm/core@2.0.0-beta.24/nodelibs/punycode";

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "last-modified": "Tue, 08 Jun 2021 22:08:17 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "server": "deno/us-west1-a",
+    "x-amz-id-2": "3x0a0m7Vy0SaDvjDarOPymMABUN8oubNdLQkgYqEOyjYeMIiVB6yXvD9sBiTTVgp+wRCoLym/WE=",
+    "vary": "Accept-Encoding",
+    "x-amz-request-id": "R3481FSGMK3TKR3X",
+    "x-amz-version-id": "12IacdgPHAqLdnLZg9_ujCJwFu2tBf59",
+    "access-control-allow-origin": "*",
+    "content-type": "application/javascript",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "etag": "W/\"cbfa6a94d2922cdd543832262abbcc4f\""
+  },
+  "url": "https://deno.land/x/postcss_autoprefixer@0.1.1/lib/hacks/overscroll-behavior.js"
+}

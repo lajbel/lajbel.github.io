@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "etag": "\"5124fdcd6299288dedc4f9a085a1259c\"",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "server": "UploadServer",
+    "access-control-expose-headers": "Content-Type",
+    "content-language": "en",
+    "x-goog-stored-content-length": "10495",
+    "x-guploader-uploadid": "ADPycdt8vbguo4DhfmI4ykIKuIcOn78Tpv2ZFosPPbsnkrfHAIDB-Vxr_dz14ztdFuyOg8gyzN-9G0XI6BaH6Pgei4RYLraPfqo7",
+    "x-goog-generation": "1602899695670172",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-goog-hash": "crc32c=nGnlSg==,md5=UST9zWKZKI3txPmghaElnA==",
+    "x-goog-storage-class": "STANDARD",
+    "accept-ranges": "bytes",
+    "content-type": "application/javascript",
+    "last-modified": "Sat, 17 Oct 2020 01:54:55 GMT",
+    "cross-origin-resource-policy": "cross-origin",
+    "access-control-allow-origin": "*",
+    "x-goog-metageneration": "2",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-stored-content-encoding": "br"
+  },
+  "url": "https://jspm.dev/npm:entities@2.1.0/lib/maps/entities.json"
+}

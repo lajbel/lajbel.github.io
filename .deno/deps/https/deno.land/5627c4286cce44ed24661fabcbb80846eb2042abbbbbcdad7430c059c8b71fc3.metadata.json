@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "x-amz-version-id": "9a7vbm4ryN88m05pcjpBp7BDFgmjT9n1",
+    "vary": "Accept-Encoding",
+    "last-modified": "Thu, 21 Oct 2021 12:43:51 GMT",
+    "content-type": "application/javascript",
+    "access-control-allow-origin": "*",
+    "etag": "W/\"9c24e4b03c74d9796fcf1814b9911031\"",
+    "server": "deno/us-west1-a",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-request-id": "R341BZ0M0XF47Q6G",
+    "x-amz-id-2": "OBlu2kHplB0/CIMdV3mBIGdKrgcG7qoPXjnTAES13Y2TOWGh5Q7HVjru0psb6Sczrfn7N4d+VtA="
+  },
+  "url": "https://deno.land/x/postcss@8.3.11/lib/css-syntax-error.js"
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-length": "1308",
+    "server": "deno/us-west1-a",
+    "vary": "Accept-Encoding",
+    "content-type": "application/typescript; charset=utf-8",
+    "etag": "\"85220c56abb70ba3c73e3a3da1411bef\"",
+    "x-amz-request-id": "DZRACKR4AZVPYFB8",
+    "last-modified": "Mon, 07 Mar 2022 09:39:02 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-version-id": "Arg_8JY.p.Z3so7W33v4M7KTPaZMogHS",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "x-amz-id-2": "5dgrz2dVPLNmJnkrrt2GNxXkQLWlhcLcDSGG0Y06EWAZ0m9g2KJnjDqL4QFk53JsULEoC0GgaL4=",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://deno.land/x/velociraptor@1.5.0/src/cli/commands/run_hook.ts"
+}

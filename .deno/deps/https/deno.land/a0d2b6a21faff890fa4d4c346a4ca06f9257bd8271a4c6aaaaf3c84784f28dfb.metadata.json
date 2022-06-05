@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "x-amz-request-id": "68V4Y61SRN4NPVGE",
+    "cache-control": "public, max-age=31536000, immutable",
+    "server": "deno/us-west1-a",
+    "content-length": "6017",
+    "x-amz-id-2": "fK9hQObUXHTcurunhj1lRNI8NIDdXJ7Nx1O8gNScn9r5IKODLwLpn944JBRCSguxq3fWf+IRES0=",
+    "last-modified": "Mon, 15 Nov 2021 12:43:11 GMT",
+    "x-amz-version-id": "Q_Zb0xsgx3_z26E9jEk2Z9YHqckCJmxQ",
+    "vary": "Accept-Encoding",
+    "etag": "\"2db10f0a0d84aceb5ff2aafac0eb3eab\""
+  },
+  "url": "https://deno.land/x/lume@v1.3.0/plugins/nunjucks.ts"
+}

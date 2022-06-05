@@ -1,0 +1,28 @@
+// Copyright 2018-2021 the Deno authors. All rights reserved. MIT license.
+import { fromFileUrl } from "../path.ts";
+/**
+ * TODO: Also accept 'path' parameter as a Node polyfill Buffer type once these
+ * are implemented. See https://github.com/denoland/deno/issues/3403
+ * Deprecated in node api
+ */ export function exists(path, callback) {
+    path = path instanceof URL ? fromFileUrl(path) : path;
+    Deno.lstat(path).then(()=>callback(true)
+    , ()=>callback(false)
+    );
+}
+/**
+ * TODO: Also accept 'path' parameter as a Node polyfill Buffer or URL type once these
+ * are implemented. See https://github.com/denoland/deno/issues/3403
+ */ export function existsSync(path) {
+    path = path instanceof URL ? fromFileUrl(path) : path;
+    try {
+        Deno.lstatSync(path);
+        return true;
+    } catch (err) {
+        if (err instanceof Deno.errors.NotFound) {
+            return false;
+        }
+        throw err;
+    }
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3N0ZEAwLjEwOS4wL25vZGUvX2ZzL19mc19leGlzdHMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gQ29weXJpZ2h0IDIwMTgtMjAyMSB0aGUgRGVubyBhdXRob3JzLiBBbGwgcmlnaHRzIHJlc2VydmVkLiBNSVQgbGljZW5zZS5cbmltcG9ydCB7IGZyb21GaWxlVXJsIH0gZnJvbSBcIi4uL3BhdGgudHNcIjtcblxudHlwZSBFeGl0c0NhbGxiYWNrID0gKGV4aXN0czogYm9vbGVhbikgPT4gdm9pZDtcblxuLyoqXG4gKiBUT0RPOiBBbHNvIGFjY2VwdCAncGF0aCcgcGFyYW1ldGVyIGFzIGEgTm9kZSBwb2x5ZmlsbCBCdWZmZXIgdHlwZSBvbmNlIHRoZXNlXG4gKiBhcmUgaW1wbGVtZW50ZWQuIFNlZSBodHRwczovL2dpdGh1Yi5jb20vZGVub2xhbmQvZGVuby9pc3N1ZXMvMzQwM1xuICogRGVwcmVjYXRlZCBpbiBub2RlIGFwaVxuICovXG5leHBvcnQgZnVuY3Rpb24gZXhpc3RzKHBhdGg6IHN0cmluZyB8IFVSTCwgY2FsbGJhY2s6IEV4aXRzQ2FsbGJhY2spOiB2b2lkIHtcbiAgcGF0aCA9IHBhdGggaW5zdGFuY2VvZiBVUkwgPyBmcm9tRmlsZVVybChwYXRoKSA6IHBhdGg7XG4gIERlbm8ubHN0YXQocGF0aCkudGhlbigoKSA9PiBjYWxsYmFjayh0cnVlKSwgKCkgPT4gY2FsbGJhY2soZmFsc2UpKTtcbn1cblxuLyoqXG4gKiBUT0RPOiBBbHNvIGFjY2VwdCAncGF0aCcgcGFyYW1ldGVyIGFzIGEgTm9kZSBwb2x5ZmlsbCBCdWZmZXIgb3IgVVJMIHR5cGUgb25jZSB0aGVzZVxuICogYXJlIGltcGxlbWVudGVkLiBTZWUgaHR0cHM6Ly9naXRodWIuY29tL2Rlbm9sYW5kL2Rlbm8vaXNzdWVzLzM0MDNcbiAqL1xuZXhwb3J0IGZ1bmN0aW9uIGV4aXN0c1N5bmMocGF0aDogc3RyaW5nIHwgVVJMKTogYm9vbGVhbiB7XG4gIHBhdGggPSBwYXRoIGluc3RhbmNlb2YgVVJMID8gZnJvbUZpbGVVcmwocGF0aCkgOiBwYXRoO1xuICB0cnkge1xuICAgIERlbm8ubHN0YXRTeW5jKHBhdGgpO1xuICAgIHJldHVybiB0cnVlO1xuICB9IGNhdGNoIChlcnIpIHtcbiAgICBpZiAoZXJyIGluc3RhbmNlb2YgRGVuby5lcnJvcnMuTm90Rm91bmQpIHtcbiAgICAgIHJldHVybiBmYWxzZTtcbiAgICB9XG4gICAgdGhyb3cgZXJyO1xuICB9XG59XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsRUFBMEUsQUFBMUUsd0VBQTBFO0FBQzFFLE1BQU0sR0FBRyxXQUFXLFFBQVEsQ0FBWTtBQUl4QyxFQUlHLEFBSkg7Ozs7Q0FJRyxBQUpILEVBSUcsQ0FDSCxNQUFNLFVBQVUsTUFBTSxDQUFDLElBQWtCLEVBQUUsUUFBdUIsRUFBUSxDQUFDO0lBQ3pFLElBQUksR0FBRyxJQUFJLFlBQVksR0FBRyxHQUFHLFdBQVcsQ0FBQyxJQUFJLElBQUksSUFBSTtJQUNyRCxJQUFJLENBQUMsS0FBSyxDQUFDLElBQUksRUFBRSxJQUFJLEtBQU8sUUFBUSxDQUFDLElBQUk7VUFBUyxRQUFRLENBQUMsS0FBSzs7QUFDbEUsQ0FBQztBQUVELEVBR0csQUFISDs7O0NBR0csQUFISCxFQUdHLENBQ0gsTUFBTSxVQUFVLFVBQVUsQ0FBQyxJQUFrQixFQUFXLENBQUM7SUFDdkQsSUFBSSxHQUFHLElBQUksWUFBWSxHQUFHLEdBQUcsV0FBVyxDQUFDLElBQUksSUFBSSxJQUFJO0lBQ3JELEdBQUcsQ0FBQyxDQUFDO1FBQ0gsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJO1FBQ25CLE1BQU0sQ0FBQyxJQUFJO0lBQ2IsQ0FBQyxDQUFDLEtBQUssRUFBRSxHQUFHLEVBQUUsQ0FBQztRQUNiLEVBQUUsRUFBRSxHQUFHLFlBQVksSUFBSSxDQUFDLE1BQU0sQ0FBQyxRQUFRLEVBQUUsQ0FBQztZQUN4QyxNQUFNLENBQUMsS0FBSztRQUNkLENBQUM7UUFDRCxLQUFLLENBQUMsR0FBRztJQUNYLENBQUM7QUFDSCxDQUFDIn0=

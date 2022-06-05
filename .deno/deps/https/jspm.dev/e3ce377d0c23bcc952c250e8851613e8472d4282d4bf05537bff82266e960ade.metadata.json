@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-hash": "crc32c=WuAYXw==,md5=/7E5cdRbvgkE2LWvM9xhfg==",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-storage-class": "STANDARD",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-stored-content-encoding": "br",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-expose-headers": "Content-Type",
+    "x-guploader-uploadid": "ADPycdtUPr5ZoM-u_0g3rv22YHB9ntQlORYg1aoeiwa6dQRULzIwDlh0Cb6svJAI00Z5A0FOHRL6aVIXdtqgEwZejnIj",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "last-modified": "Thu, 06 May 2021 09:18:15 GMT",
+    "content-type": "application/javascript; charset=utf-8",
+    "server": "UploadServer",
+    "x-goog-stored-content-length": "82",
+    "x-goog-metageneration": "2",
+    "accept-ranges": "bytes",
+    "etag": "\"ffb13971d45bbe0904d8b5af33dc617e\"",
+    "x-goog-generation": "1620292695347849"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-cross-fade"
+}

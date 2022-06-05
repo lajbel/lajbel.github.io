@@ -1,0 +1,81 @@
+import { e as exports$1 } from '../../_/186f5a67.js';
+import '../../../npm:entities@2.1/lib/maps/entities.json!cjs';
+import '../../../npm:uc.micro@1/categories/P/regex!cjs';
+import '../../../npm:mdurl@1!cjs';
+import '../../../npm:uc.micro@1!cjs';
+
+var exports = {};
+var unescapeAll = exports$1.unescapeAll;
+
+exports = function parseLinkTitle(str, pos, max) {
+  var code,
+      marker,
+      lines = 0,
+      start = pos,
+      result = {
+    ok: false,
+    pos: 0,
+    lines: 0,
+    str: ""
+  };
+
+  if (pos >= max) {
+    return result;
+  }
+
+  marker = str.charCodeAt(pos);
+
+  if (marker !== 34
+  /* " */
+  && marker !== 39
+  /* ' */
+  && marker !== 40
+  /* ( */
+  ) {
+      return result;
+    }
+
+  pos++; // if opening marker is "(", switch it to closing marker ")"
+
+  if (marker === 40) {
+    marker = 41;
+  }
+
+  while (pos < max) {
+    code = str.charCodeAt(pos);
+
+    if (code === marker) {
+      result.pos = pos + 1;
+      result.lines = lines;
+      result.str = unescapeAll(str.slice(start + 1, pos));
+      result.ok = true;
+      return result;
+    } else if (code === 40
+    /* ( */
+    && marker === 41
+    /* ) */
+    ) {
+        return result;
+      } else if (code === 10) {
+      lines++;
+    } else if (code === 92
+    /* \ */
+    && pos + 1 < max) {
+      pos++;
+
+      if (str.charCodeAt(pos) === 10) {
+        lines++;
+      }
+    }
+
+    pos++;
+  }
+
+  return result;
+};
+
+var _parse_link_title = exports;
+
+export default _parse_link_title;
+
+//# sourceMappingURL=parse_link_title!cjs.map

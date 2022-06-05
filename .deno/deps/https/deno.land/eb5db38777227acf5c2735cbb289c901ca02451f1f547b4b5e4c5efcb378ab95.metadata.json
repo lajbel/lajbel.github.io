@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-id-2": "L3PguY2pMQQgNNXiVq8byJc8BXVmhFsc4YqL9WE+CohOxWD/vcVDD9WZ3uQoiP/mEt6mvfrLkfM=",
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "VXr58prmQIuVAatQkUvNgVaYAWVYgopo",
+    "x-amz-request-id": "DZRFJXNHCGMBFE7G",
+    "etag": "\"6028daa2a6634fc5173a2426f1d5b26e\"",
+    "access-control-allow-origin": "*",
+    "server": "deno/us-west1-a",
+    "last-modified": "Mon, 07 Mar 2022 09:39:02 GMT",
+    "content-type": "application/typescript; charset=utf-8",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-length": "489",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT"
+  },
+  "url": "https://deno.land/x/velociraptor@1.5.0/src/did_you_mean.ts"
+}

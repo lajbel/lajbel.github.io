@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "accept-ranges": "bytes",
+    "content-type": "application/javascript; charset=utf-8",
+    "etag": "\"c141211f3a79dc665434ec44776cfb67\"",
+    "x-goog-hash": "crc32c=46YGpA==,md5=wUEhHzp53GZUNOxEd2z7Zw==",
+    "access-control-allow-origin": "*",
+    "x-goog-generation": "1620292694472662",
+    "x-goog-storage-class": "STANDARD",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "server": "UploadServer",
+    "x-goog-metageneration": "2",
+    "x-goog-stored-content-encoding": "br",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "last-modified": "Thu, 06 May 2021 09:18:14 GMT",
+    "x-goog-stored-content-length": "80",
+    "x-guploader-uploadid": "ADPycdvLWOrVeCCIks_AjjeJL-3fmWP72OJT0gvyfyZQ_IODYlZSZxD2figK3uQD9btFzLgUU6tMP1joHDr2N1Xb46b9GQ",
+    "cross-origin-resource-policy": "cross-origin"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/transforms2d"
+}

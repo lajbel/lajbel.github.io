@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/javascript; charset=utf-8",
+    "server": "UploadServer",
+    "x-goog-hash": "crc32c=87csqQ==,md5=HW+x0fhGO0m6BsmhlVdWtQ==",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-generation": "1620292696358499",
+    "last-modified": "Thu, 06 May 2021 09:18:16 GMT",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-guploader-uploadid": "ADPycdtSNxblaAYpqXUdRumlO_IqJy17LNw97q1-K23KtVi3_0Fd8TOEZYApfdzKVi-TTN1Pg4syKNlkvA2zO-dMQf_Mug",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-expose-headers": "Content-Type",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-stored-content-length": "567",
+    "accept-ranges": "bytes",
+    "x-goog-metageneration": "2",
+    "etag": "\"1d6fb1d1f8463b49ba06c9a1955756b5\"",
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "url": "https://jspm.dev/npm:caniuse-lite@1.0.30001223/data/features/calc!cjs"
+}

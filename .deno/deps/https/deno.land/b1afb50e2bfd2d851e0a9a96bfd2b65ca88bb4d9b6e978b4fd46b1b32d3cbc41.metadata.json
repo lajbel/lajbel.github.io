@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-version-id": "FVvpn4xtKTXcjAvWkH_b1XRftj7HoMYA",
+    "etag": "\"998d64c73d6b6977f4d9fad12a7c2a14\"",
+    "x-amz-id-2": "zHm9qmslX27yvtVgEGnrQQDRS+fWJXx7T1voO1/Xbc5mi4ohCLEcCKeIvBp7Dht7rAvl94dFpUI=",
+    "cache-control": "public, max-age=31536000, immutable",
+    "server": "deno/us-west1-a",
+    "access-control-allow-origin": "*",
+    "vary": "Accept-Encoding",
+    "content-length": "3223",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "last-modified": "Tue, 08 Jun 2021 19:16:57 GMT",
+    "x-amz-request-id": "R348SK1QGK5XMZWY"
+  },
+  "url": "https://deno.land/std@0.98.0/node/_fs/_fs_writeFile.ts"
+}

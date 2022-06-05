@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-amz-id-2": "KuRIu1RzfHTKev0XHZxEuw8VpRRLiZ6+nDouNi6R22UQnS6w1E9iG3lUaZg//5ZOyfbl9EKR488=",
+    "etag": "W/\"508769f60a8dc5f4a66df86ee636433d\"",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "cache-control": "public, max-age=31536000, immutable",
+    "server": "deno/us-west1-a",
+    "x-amz-version-id": "2mNu.x8LR4uKdB30T4HXzcdv4rx1kTzn",
+    "access-control-allow-origin": "*",
+    "vary": "Accept-Encoding",
+    "content-type": "application/javascript",
+    "x-amz-request-id": "R34CM3418WZG1TCS",
+    "last-modified": "Thu, 21 Oct 2021 12:43:51 GMT"
+  },
+  "url": "https://deno.land/x/postcss@8.3.11/lib/stringifier.js"
+}

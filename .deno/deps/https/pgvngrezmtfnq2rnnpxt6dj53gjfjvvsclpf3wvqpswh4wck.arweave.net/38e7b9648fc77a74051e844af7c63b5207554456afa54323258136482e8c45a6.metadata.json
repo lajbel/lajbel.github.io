@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-cf-id": "wuttn_d7IF0OBAhHbdbwbisiCt-p_LwoMNRG85exB-4RLPIiq_v39Q==",
+    "x-cache": "Hit from cloudfront",
+    "age": "562794",
+    "content-type": "application/typescript",
+    "x-amz-cf-pop": "SEA73-P2",
+    "content-length": "898",
+    "vary": "Origin",
+    "via": "1.1 27f6faf9790b5a2877fb528fa31f7922.cloudfront.net (CloudFront)",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "date": "Mon, 30 May 2022 09:17:22 GMT",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "x-trace": "AM6rVItbX"
+  },
+  "url": "https://pgvngrezmtfnq2rnnpxt6dj53gjfjvvsclpf3wvqpswh4wck.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/Denopkg.ts"
+}

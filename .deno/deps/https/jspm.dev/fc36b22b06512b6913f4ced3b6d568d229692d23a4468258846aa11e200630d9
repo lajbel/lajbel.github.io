@@ -1,0 +1,450 @@
+import * as _entities2 from '../../npm:entities@2.1/lib/maps/entities.json!cjs';
+import * as _regex2 from '../../npm:uc.micro@1/categories/P/regex!cjs';
+import * as _mdurl2 from '../../npm:mdurl@1!cjs';
+import * as _uc2 from '../../npm:uc.micro@1!cjs';
+
+var _entities = "default" in _entities2 ? _entities2.default : _entities2;
+
+var _regex = "default" in _regex2 ? _regex2.default : _regex2;
+
+var _mdurl = "default" in _mdurl2 ? _mdurl2.default : _mdurl2;
+
+var _uc = "default" in _uc2 ? _uc2.default : _uc2;
+
+var exports = {};
+
+function _class(obj) {
+  return Object.prototype.toString.call(obj);
+}
+
+function isString(obj) {
+  return _class(obj) === "[object String]";
+}
+
+var _hasOwnProperty = Object.prototype.hasOwnProperty;
+
+function has(object, key) {
+  return _hasOwnProperty.call(object, key);
+} // Merge objects
+//
+
+
+function assign(obj
+/*from1, from2, from3, ...*/
+) {
+  var sources = Array.prototype.slice.call(arguments, 1);
+  sources.forEach(function (source) {
+    if (!source) {
+      return;
+    }
+
+    if (typeof source !== "object") {
+      throw new TypeError(source + "must be object");
+    }
+
+    Object.keys(source).forEach(function (key) {
+      obj[key] = source[key];
+    });
+  });
+  return obj;
+} // Remove element from array and put another array at those position.
+// Useful for some operations with tokens
+
+
+function arrayReplaceAt(src, pos, newElements) {
+  return [].concat(src.slice(0, pos), newElements, src.slice(pos + 1));
+} ////////////////////////////////////////////////////////////////////////////////
+
+
+function isValidEntityCode(c) {
+  /*eslint no-bitwise:0*/
+  // broken sequence
+  if (c >= 55296 && c <= 57343) {
+    return false;
+  } // never used
+
+
+  if (c >= 64976 && c <= 65007) {
+    return false;
+  }
+
+  if ((c & 65535) === 65535 || (c & 65535) === 65534) {
+    return false;
+  } // control codes
+
+
+  if (c >= 0 && c <= 8) {
+    return false;
+  }
+
+  if (c === 11) {
+    return false;
+  }
+
+  if (c >= 14 && c <= 31) {
+    return false;
+  }
+
+  if (c >= 127 && c <= 159) {
+    return false;
+  } // out of range
+
+
+  if (c > 1114111) {
+    return false;
+  }
+
+  return true;
+}
+
+function fromCodePoint(c) {
+  /*eslint no-bitwise:0*/
+  if (c > 65535) {
+    c -= 65536;
+    var surrogate1 = 55296 + (c >> 10),
+        surrogate2 = 56320 + (c & 1023);
+    return String.fromCharCode(surrogate1, surrogate2);
+  }
+
+  return String.fromCharCode(c);
+}
+
+var UNESCAPE_MD_RE = /\\([!"#$%&'()*+,\-.\/:;<=>?@[\\\]^_`{|}~])/g;
+var ENTITY_RE = /&([a-z#][a-z0-9]{1,31});/gi;
+var UNESCAPE_ALL_RE = new RegExp(UNESCAPE_MD_RE.source + "|" + ENTITY_RE.source, "gi");
+var DIGITAL_ENTITY_TEST_RE = /^#((?:x[a-f0-9]{1,8}|[0-9]{1,8}))/i;
+var entities = _entities;
+
+function replaceEntityPattern(match, name) {
+  var code = 0;
+
+  if (has(entities, name)) {
+    return entities[name];
+  }
+
+  if (name.charCodeAt(0) === 35
+  /* # */
+  && DIGITAL_ENTITY_TEST_RE.test(name)) {
+    code = name[1].toLowerCase() === "x" ? parseInt(name.slice(2), 16) : parseInt(name.slice(1), 10);
+
+    if (isValidEntityCode(code)) {
+      return fromCodePoint(code);
+    }
+  }
+
+  return match;
+}
+/*function replaceEntities(str) {
+  if (str.indexOf('&') < 0) { return str; }
+
+  return str.replace(ENTITY_RE, replaceEntityPattern);
+}*/
+
+
+function unescapeMd(str) {
+  if (str.indexOf("\\") < 0) {
+    return str;
+  }
+
+  return str.replace(UNESCAPE_MD_RE, "$1");
+}
+
+function unescapeAll(str) {
+  if (str.indexOf("\\") < 0 && str.indexOf("&") < 0) {
+    return str;
+  }
+
+  return str.replace(UNESCAPE_ALL_RE, function (match, escaped, entity) {
+    if (escaped) {
+      return escaped;
+    }
+
+    return replaceEntityPattern(match, entity);
+  });
+} ////////////////////////////////////////////////////////////////////////////////
+
+
+var HTML_ESCAPE_TEST_RE = /[&<>"]/;
+var HTML_ESCAPE_REPLACE_RE = /[&<>"]/g;
+var HTML_REPLACEMENTS = {
+  "&": "&amp;",
+  "<": "&lt;",
+  ">": "&gt;",
+  "\"": "&quot;"
+};
+
+function replaceUnsafeChar(ch) {
+  return HTML_REPLACEMENTS[ch];
+}
+
+function escapeHtml(str) {
+  if (HTML_ESCAPE_TEST_RE.test(str)) {
+    return str.replace(HTML_ESCAPE_REPLACE_RE, replaceUnsafeChar);
+  }
+
+  return str;
+} ////////////////////////////////////////////////////////////////////////////////
+
+
+var REGEXP_ESCAPE_RE = /[.?*+^$[\]\\(){}|-]/g;
+
+function escapeRE(str) {
+  return str.replace(REGEXP_ESCAPE_RE, "\\$&");
+} ////////////////////////////////////////////////////////////////////////////////
+
+
+function isSpace(code) {
+  switch (code) {
+    case 9:
+    case 32:
+      return true;
+  }
+
+  return false;
+} // Zs (unicode class) || [\t\f\v\r\n]
+
+
+function isWhiteSpace(code) {
+  if (code >= 8192 && code <= 8202) {
+    return true;
+  }
+
+  switch (code) {
+    case 9: // \t
+
+    case 10: // \n
+
+    case 11: // \v
+
+    case 12: // \f
+
+    case 13: // \r
+
+    case 32:
+    case 160:
+    case 5760:
+    case 8239:
+    case 8287:
+    case 12288:
+      return true;
+  }
+
+  return false;
+} ////////////////////////////////////////////////////////////////////////////////
+
+/*eslint-disable max-len*/
+
+
+var UNICODE_PUNCT_RE = _regex; // Currently without astral characters support.
+
+function isPunctChar(ch) {
+  return UNICODE_PUNCT_RE.test(ch);
+} // Markdown ASCII punctuation characters.
+//
+// !, ", #, $, %, &, ', (, ), *, +, ,, -, ., /, :, ;, <, =, >, ?, @, [, \, ], ^, _, `, {, |, }, or ~
+// http://spec.commonmark.org/0.15/#ascii-punctuation-character
+//
+// Don't confuse with unicode punctuation !!! It lacks some chars in ascii range.
+//
+
+
+function isMdAsciiPunct(ch) {
+  switch (ch) {
+    case 33
+    /* ! */
+    :
+    case 34
+    /* " */
+    :
+    case 35
+    /* # */
+    :
+    case 36
+    /* $ */
+    :
+    case 37
+    /* % */
+    :
+    case 38
+    /* & */
+    :
+    case 39
+    /* ' */
+    :
+    case 40
+    /* ( */
+    :
+    case 41
+    /* ) */
+    :
+    case 42
+    /* * */
+    :
+    case 43
+    /* + */
+    :
+    case 44
+    /* , */
+    :
+    case 45
+    /* - */
+    :
+    case 46
+    /* . */
+    :
+    case 47
+    /* / */
+    :
+    case 58
+    /* : */
+    :
+    case 59
+    /* ; */
+    :
+    case 60
+    /* < */
+    :
+    case 61
+    /* = */
+    :
+    case 62
+    /* > */
+    :
+    case 63
+    /* ? */
+    :
+    case 64
+    /* @ */
+    :
+    case 91
+    /* [ */
+    :
+    case 92
+    /* \ */
+    :
+    case 93
+    /* ] */
+    :
+    case 94
+    /* ^ */
+    :
+    case 95
+    /* _ */
+    :
+    case 96
+    /* ` */
+    :
+    case 123
+    /* { */
+    :
+    case 124
+    /* | */
+    :
+    case 125
+    /* } */
+    :
+    case 126
+    /* ~ */
+    :
+      return true;
+
+    default:
+      return false;
+  }
+} // Hepler to unify [reference labels].
+//
+
+
+function normalizeReference(str) {
+  // Trim and collapse whitespace
+  //
+  str = str.trim().replace(/\s+/g, " "); // In node v10 'ẞ'.toLowerCase() === 'Ṿ', which is presumed to be a bug
+  // fixed in v12 (couldn't find any details).
+  //
+  // So treat this one as a special case
+  // (remove this when node v10 is no longer supported).
+  //
+
+  if ("\u1E9E".toLowerCase() === "\u1E7E") {
+    str = str.replace(/ẞ/g, "\xDF");
+  } // .toLowerCase().toUpperCase() should get rid of all differences
+  // between letter variants.
+  //
+  // Simple .toLowerCase() doesn't normalize 125 code points correctly,
+  // and .toUpperCase doesn't normalize 6 of them (list of exceptions:
+  // İ, ϴ, ẞ, Ω, K, Å - those are already uppercased, but have differently
+  // uppercased versions).
+  //
+  // Here's an example showing how it happens. Lets take greek letter omega:
+  // uppercase U+0398 (Θ), U+03f4 (ϴ) and lowercase U+03b8 (θ), U+03d1 (ϑ)
+  //
+  // Unicode entries:
+  // 0398;GREEK CAPITAL LETTER THETA;Lu;0;L;;;;;N;;;;03B8;
+  // 03B8;GREEK SMALL LETTER THETA;Ll;0;L;;;;;N;;;0398;;0398
+  // 03D1;GREEK THETA SYMBOL;Ll;0;L;<compat> 03B8;;;;N;GREEK SMALL LETTER SCRIPT THETA;;0398;;0398
+  // 03F4;GREEK CAPITAL THETA SYMBOL;Lu;0;L;<compat> 0398;;;;N;;;;03B8;
+  //
+  // Case-insensitive comparison should treat all of them as equivalent.
+  //
+  // But .toLowerCase() doesn't change ϑ (it's already lowercase),
+  // and .toUpperCase() doesn't change ϴ (already uppercase).
+  //
+  // Applying first lower then upper case normalizes any character:
+  // '\u0398\u03f4\u03b8\u03d1'.toLowerCase().toUpperCase() === '\u0398\u0398\u0398\u0398'
+  //
+  // Note: this is equivalent to unicode case folding; unicode normalization
+  // is a different step that is not required here.
+  //
+  // Final result should be uppercased, because it's later stored in an object
+  // (this avoid a conflict with Object.prototype members,
+  // most notably, `__proto__`)
+  //
+
+
+  return str.toLowerCase().toUpperCase();
+} ////////////////////////////////////////////////////////////////////////////////
+// Re-export libraries commonly used in both markdown-it and its plugins,
+// so plugins won't have to depend on them explicitly, which reduces their
+// bundled size (e.g. a browser build).
+//
+
+
+exports.lib = {};
+exports.lib.mdurl = _mdurl;
+exports.lib.ucmicro = _uc;
+exports.assign = assign;
+exports.isString = isString;
+exports.has = has;
+exports.unescapeMd = unescapeMd;
+exports.unescapeAll = unescapeAll;
+exports.isValidEntityCode = isValidEntityCode;
+exports.fromCodePoint = fromCodePoint; // exports.replaceEntities     = replaceEntities;
+
+exports.escapeHtml = escapeHtml;
+exports.arrayReplaceAt = arrayReplaceAt;
+exports.isSpace = isSpace;
+exports.isWhiteSpace = isWhiteSpace;
+exports.isMdAsciiPunct = isMdAsciiPunct;
+exports.isPunctChar = isPunctChar;
+exports.escapeRE = escapeRE;
+exports.normalizeReference = normalizeReference;
+const lib = exports.lib;
+const _assign = exports.assign,
+      _isString = exports.isString,
+      _has = exports.has,
+      _unescapeMd = exports.unescapeMd,
+      _unescapeAll = exports.unescapeAll,
+      _isValidEntityCode = exports.isValidEntityCode,
+      _fromCodePoint = exports.fromCodePoint,
+      _escapeHtml = exports.escapeHtml,
+      _arrayReplaceAt = exports.arrayReplaceAt,
+      _isSpace = exports.isSpace,
+      _isWhiteSpace = exports.isWhiteSpace,
+      _isMdAsciiPunct = exports.isMdAsciiPunct,
+      _isPunctChar = exports.isPunctChar,
+      _escapeRE = exports.escapeRE,
+      _normalizeReference = exports.normalizeReference;
+
+export { _entities as _, _assign as a, _isString as b, _has as c, _unescapeMd as d, exports as e, _unescapeAll as f, _isValidEntityCode as g, _fromCodePoint as h, _escapeHtml as i, _arrayReplaceAt as j, _isSpace as k, lib as l, _isWhiteSpace as m, _isMdAsciiPunct as n, _isPunctChar as o, _escapeRE as p, _normalizeReference as q };
+
+//# sourceMappingURL=186f5a67.js.map

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "cross-origin-resource-policy": "cross-origin",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "last-modified": "Sat, 17 Oct 2020 01:52:59 GMT",
+    "server": "UploadServer",
+    "x-guploader-uploadid": "ADPycduHApgrxHTiWQmExVOMpDaY0395xbuuI2DbP2fzv0-5_eykRTFV4JFhrgGdnNCluE_69DO93gdD5QDCnaqHqASM1A",
+    "content-type": "application/javascript",
+    "expires": "Sun, 05 Jun 2022 21:41:26 GMT",
+    "x-goog-stored-content-length": "71",
+    "access-control-allow-origin": "*",
+    "etag": "\"a3703a98b030af1532c3c2fea6940d03\"",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-generation": "1602899579839700",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "cache-control": "public, max-age=200",
+    "x-goog-metageneration": "2",
+    "content-language": "en",
+    "accept-ranges": "bytes",
+    "x-goog-hash": "crc32c=3MuqTg==,md5=o3A6mLAwrxUyw8L+ppQNAw=="
+  },
+  "url": "https://jspm.dev/npm:entities@2.1/lib/maps/entities.json!cjs"
+}

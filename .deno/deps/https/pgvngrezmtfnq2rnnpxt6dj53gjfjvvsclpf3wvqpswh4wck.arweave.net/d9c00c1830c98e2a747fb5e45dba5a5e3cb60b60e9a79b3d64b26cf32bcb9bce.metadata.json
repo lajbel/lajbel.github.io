@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-cf-pop": "SEA73-P2",
+    "x-amz-cf-id": "Vw7Ijxx-clXWS2G1Qne03BwCNWRmwJKvZldu5LVwBW4HimmeZ5QxFQ==",
+    "date": "Sat, 28 May 2022 23:57:22 GMT",
+    "content-length": "1306",
+    "x-cache": "Hit from cloudfront",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "content-type": "application/typescript",
+    "x-trace": "Ne1ADn0Bu",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "via": "1.1 27f6faf9790b5a2877fb528fa31f7922.cloudfront.net (CloudFront)",
+    "age": "682794",
+    "vary": "Origin"
+  },
+  "url": "https://pgvngrezmtfnq2rnnpxt6dj53gjfjvvsclpf3wvqpswh4wck.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/NestLand.ts"
+}

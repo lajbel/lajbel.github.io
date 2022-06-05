@@ -1,0 +1,1 @@
+export { default } from "/npm:fraction.js@4.0.13!cjs";

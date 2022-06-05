@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:37:15 GMT",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "location": "https://arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/mod.ts",
+    "connection": "keep-alive",
+    "access-control-allow-methods": "GET,POST",
+    "vary": "Accept",
+    "content-length": "92",
+    "content-type": "text/plain; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "*"
+  },
+  "url": "https://x.nest.land/hatcher@0.10.2/mod.ts"
+}

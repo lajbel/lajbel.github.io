@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-trace": "pjsGKwjYOL",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "x-amz-cf-id": "_a3r2sHLn-RXs5Bc2ZXYIjgMaqRahJ7OZzRJ_F4smD39x3hSNAJtBw==",
+    "vary": "Origin",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "age": "1599933",
+    "content-type": "application/typescript",
+    "x-cache": "Hit from cloudfront",
+    "content-length": "886",
+    "via": "1.1 27f6faf9790b5a2877fb528fa31f7922.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA73-P2",
+    "date": "Wed, 18 May 2022 09:11:43 GMT"
+  },
+  "url": "https://pgvngrezmtfnq2rnnpxt6dj53gjfjvvsclpf3wvqpswh4wck.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/Jspm.ts"
+}

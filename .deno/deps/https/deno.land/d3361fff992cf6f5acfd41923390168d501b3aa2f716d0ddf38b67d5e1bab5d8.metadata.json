@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Mon, 01 Nov 2021 15:00:30 GMT",
+    "server": "deno/us-west1-a",
+    "x-amz-request-id": "68VCD3A5C4DFNEAW",
+    "x-amz-version-id": "7VtJJ3Hpw89UIxNxVYmLJ99Xld9pBhbt",
+    "etag": "\"41de03ac74afe260e2ac40dc85a2fd36\"",
+    "x-amz-id-2": "Ke4stZ9lfj9ehtDTrNfAz2cvuN4FDlOrcTVMxO2x4k0NwYmJhDjKn/zMq8OA5ZmMunvk1YJn0FI=",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "content-length": "2965"
+  },
+  "url": "https://deno.land/x/cliffy@v0.20.1/prompt/secret.ts"
+}

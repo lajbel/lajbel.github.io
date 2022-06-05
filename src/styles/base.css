@@ -105,3 +105,9 @@ i .fa-discord {
         padding: 0px 80px;
     }
 }
+
+/* Discord Link */
+
+.discord {
+    cursor: pointer;
+}

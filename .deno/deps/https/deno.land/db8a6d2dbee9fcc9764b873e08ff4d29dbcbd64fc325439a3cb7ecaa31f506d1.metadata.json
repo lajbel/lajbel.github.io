@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "deno/us-west1-a",
+    "last-modified": "Sat, 17 Jul 2021 16:14:14 GMT",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-length": "854",
+    "content-type": "application/typescript; charset=utf-8",
+    "x-amz-request-id": "DZRBEJXST6FSZ30S",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "x-amz-version-id": "kVQr_Rdsuh1fB8SDjvRH8I2tLcsDiT.4",
+    "etag": "\"bbf1c2d2fc9dba451314b30761617b4a\"",
+    "x-amz-id-2": "IpTteKMPy37u6kXm4P4/Yv7b9Z7Yjv7I++uClYvQyWHM0LlvdQcYRQYg1QStkvZKfa78u9SQQxk="
+  },
+  "url": "https://deno.land/x/cliffy@v0.19.3/command/types/enum.ts"
+}

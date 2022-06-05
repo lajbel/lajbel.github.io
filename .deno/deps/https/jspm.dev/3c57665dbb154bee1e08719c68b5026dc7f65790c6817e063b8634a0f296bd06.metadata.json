@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "last-modified": "Thu, 06 May 2021 09:18:17 GMT",
+    "x-goog-stored-content-length": "594",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-hash": "crc32c=nU0PEg==,md5=CVq5leYU+GneoYJoT6wSbw==",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "etag": "\"095ab995e614f869dea182684fac126f\"",
+    "x-guploader-uploadid": "ADPycdtrobn6F8Y2BRP9wgh5jDBEvm_-zwoRcVjb2WoBm2g1CM_lNGsVf8ja66lfSHLCDZ2Cqy0YlpWsPDIi34uIT7TZCFt_poI4",
+    "content-type": "application/javascript; charset=utf-8",
+    "accept-ranges": "bytes",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-allow-origin": "*",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "server": "UploadServer",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-metageneration": "2",
+    "x-goog-generation": "1620292697530435"
+  },
+  "url": "https://jspm.dev/npm:caniuse-lite@1.0.30001223/data/features/css-backdrop-filter!cjs"
+}

@@ -1,0 +1,21 @@
+var _global = typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : global;
+
+var exports = {};
+
+function BrowserslistError(message) {
+  (this || _global).name = "BrowserslistError";
+  (this || _global).message = message;
+  (this || _global).browserslist = true;
+
+  if (Error.captureStackTrace) {
+    Error.captureStackTrace(this || _global, BrowserslistError);
+  }
+}
+
+BrowserslistError.prototype = Error.prototype;
+exports = BrowserslistError;
+var _error = exports;
+
+export default _error;
+
+//# sourceMappingURL=error!cjs.map

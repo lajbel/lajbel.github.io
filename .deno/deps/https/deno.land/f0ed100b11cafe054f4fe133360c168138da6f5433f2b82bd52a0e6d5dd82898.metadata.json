@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "x-amz-version-id": "a3hUiMIjNG6XPIbET5WzIE_SdhAElYq6",
+    "x-amz-id-2": "Wln149nF+QkDNPR61cLV160QHbvMODe7HCYIP6MtLDN8/fB136daGsUlNjhipa4kUDKVRR9EGuU=",
+    "x-amz-request-id": "R34AMYZ2HYT71VKW",
+    "cache-control": "public, max-age=31536000, immutable",
+    "content-type": "application/javascript",
+    "etag": "W/\"95b69c7f1bf7604b124cf827e732db22\"",
+    "last-modified": "Tue, 08 Jun 2021 22:08:17 GMT",
+    "server": "deno/us-west1-a"
+  },
+  "url": "https://deno.land/x/postcss_autoprefixer@0.1.1/lib/hacks/flex-wrap.js"
+}

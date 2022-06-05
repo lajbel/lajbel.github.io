@@ -1,0 +1,2 @@
+import "/npm:markdown-it-attrs@4.0.0/utils!cjs";
+export { default } from "/npm:markdown-it-attrs@4.0.0!cjs";

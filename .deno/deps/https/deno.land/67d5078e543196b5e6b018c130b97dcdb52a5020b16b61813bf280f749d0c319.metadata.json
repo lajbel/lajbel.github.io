@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-amz-version-id": "y4YYBJOgntHfguCfyGgQ9Ek8TIXcXpq2",
+    "etag": "W/\"63a40dbfa0d7750b5c1111bf4fe97135\"",
+    "x-amz-id-2": "tVneruV1v9lUwA7SK5rZj0sXCNhF96asq/7ZehGeDLwCq/cIwZm0vw3QWEzOXnHt36W9tB7kBLg=",
+    "last-modified": "Tue, 08 Jun 2021 22:08:17 GMT",
+    "date": "Sun, 05 Jun 2022 21:38:12 GMT",
+    "x-amz-request-id": "R34F1PWNZVJ611PK",
+    "content-type": "application/javascript",
+    "server": "deno/us-west1-a",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, immutable",
+    "vary": "Accept-Encoding"
+  },
+  "url": "https://deno.land/x/postcss_autoprefixer@0.1.1/lib/hacks/mask-border.js"
+}

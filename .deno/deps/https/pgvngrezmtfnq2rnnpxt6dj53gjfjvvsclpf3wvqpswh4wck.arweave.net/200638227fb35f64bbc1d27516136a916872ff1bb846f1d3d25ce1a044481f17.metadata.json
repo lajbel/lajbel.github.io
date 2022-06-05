@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/typescript",
+    "age": "1167944",
+    "x-trace": "Un8CtS0t2",
+    "x-amz-cf-pop": "SEA73-P2",
+    "x-cache": "Hit from cloudfront",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "via": "1.1 27f6faf9790b5a2877fb528fa31f7922.cloudfront.net (CloudFront)",
+    "x-amz-cf-id": "NEwN47pqVAvrCiGFtZXJcIZSYDzMqn6XF7Ti8IWK9b61_42Ybs6kNg==",
+    "date": "Mon, 23 May 2022 09:11:32 GMT",
+    "etag": "e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0",
+    "vary": "Origin",
+    "content-length": "934"
+  },
+  "url": "https://pgvngrezmtfnq2rnnpxt6dj53gjfjvvsclpf3wvqpswh4wck.arweave.net/e-arTRJlkythqLWvvPw09-2ZJU1rIS3l3asHysflhK0/lib/registries/Skypack.ts"
+}

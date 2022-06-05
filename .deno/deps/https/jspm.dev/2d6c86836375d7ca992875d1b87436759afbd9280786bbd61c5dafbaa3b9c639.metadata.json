@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "cache-control": "public, max-age=200",
+    "x-goog-hash": "crc32c=fqcTPg==,md5=LG3P7M3JnKTAiTQuNao9sQ==",
+    "x-goog-storage-class": "STANDARD",
+    "last-modified": "Fri, 01 Oct 2021 19:24:23 GMT",
+    "x-goog-metageneration": "2",
+    "expires": "Sun, 05 Jun 2022 21:41:26 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "accept-ranges": "bytes",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "cross-origin-resource-policy": "cross-origin",
+    "content-type": "application/javascript; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "x-guploader-uploadid": "ADPycdvRQkWml8xLXi8Ob2hm_M4kx1uIQc6XYqwuYqp6gQJQ7t7g_gMKFdCbDIhthvKnk5F3uBHDBeeOo2F5n_FCeYTFag",
+    "server": "UploadServer",
+    "etag": "\"2c6dcfeccdc99ca4c089342e35aa3db1\"",
+    "x-goog-stored-content-length": "104",
+    "x-goog-generation": "1633116263612814"
+  },
+  "url": "https://jspm.dev/npm:linkify-it@3!cjs"
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-metageneration": "2",
+    "x-goog-hash": "crc32c=o/cVrg==,md5=2mQD2F2KeA0X8L0UwdG8Zg==",
+    "x-goog-generation": "1650549121380476",
+    "cross-origin-resource-policy": "cross-origin",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-guploader-uploadid": "ADPycdtuNxCnYeCFfuuCoWUTL66XTZnAM-dcHJSEK3ZjuJblsMoaSX7VXboHWdCvi8pWtIBzm9PvwkUoyqIlrSxfKgmY4Q",
+    "x-goog-stored-content-encoding": "br",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-length": "2070",
+    "accept-ranges": "bytes",
+    "server": "UploadServer",
+    "last-modified": "Thu, 21 Apr 2022 13:52:01 GMT",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-expose-headers": "Content-Type",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "etag": "\"da6403d85d8a780d17f0bd14c1d1bc66\"",
+    "x-goog-storage-class": "STANDARD"
+  },
+  "url": "https://jspm.dev/npm:@jspm/core@2.0.0-beta.24/nodelibs/process"
+}

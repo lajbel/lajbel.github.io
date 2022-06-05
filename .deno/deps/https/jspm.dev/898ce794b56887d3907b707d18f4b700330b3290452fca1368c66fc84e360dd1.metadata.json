@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-stored-content-encoding": "br",
+    "access-control-expose-headers": "Content-Type",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "last-modified": "Mon, 02 Aug 2021 23:24:39 GMT",
+    "x-goog-generation": "1627946679311470",
+    "x-goog-stored-content-length": "554",
+    "etag": "\"25fcd4fe2bd5316837b8ad21310c0e5d\"",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2",
+    "x-goog-hash": "crc32c=ESidMw==,md5=JfzU/ivVMWg3uK0hMQwOXQ==",
+    "x-goog-storage-class": "STANDARD",
+    "content-type": "application/javascript; charset=utf-8",
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "x-guploader-uploadid": "ADPycdtDhSUp7Yl643jjigN8anAnc4nPdB6-buRAeJxFFJwHzzBZAnqaI5ZiQJwjZDgsrEY2fbiqe5clt90oG4eaP5NG7A",
+    "cross-origin-resource-policy": "cross-origin",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "server": "UploadServer"
+  },
+  "url": "https://jspm.dev/npm:markdown-it@12.2.0/lib/helpers/parse_link_title!cjs"
+}

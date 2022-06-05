@@ -1,0 +1,12 @@
+{
+  "headers": {
+    "location": "https://deno.land/x/velociraptor/cli.ts",
+    "x-frame-options": "SAMEORIGIN",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Sun, 05 Jun 2022 21:37:15 GMT",
+    "content-length": "236",
+    "server": "ghs",
+    "x-xss-protection": "0"
+  },
+  "url": "https://code.velociraptor.run/"
+}

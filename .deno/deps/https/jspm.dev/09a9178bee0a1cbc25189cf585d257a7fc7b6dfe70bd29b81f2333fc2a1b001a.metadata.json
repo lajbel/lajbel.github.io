@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "server": "UploadServer",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-goog-metageneration": "2",
+    "x-guploader-uploadid": "ADPycduebhBWMJOhNOLxgwOlfK38GubkcMlwAFv_6YgV_8vSBZLOm7Ig8-op9ESIktkxSST-OOxe9odpeC1zcpu4YOpvD6oHoIUJ",
+    "x-goog-hash": "crc32c=3hmpyA==,md5=2hRSSjIjiS4ia8xC01sXcQ==",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-generation": "1620292696033906",
+    "last-modified": "Thu, 06 May 2021 09:18:16 GMT",
+    "accept-ranges": "bytes",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-length": "79",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-stored-content-encoding": "br",
+    "etag": "\"da14524a3223892e226bcc42d35b1771\"",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-animation"
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "last-modified": "Thu, 04 Jun 2020 02:40:28 GMT",
+    "access-control-allow-origin": "*",
+    "accept-ranges": "bytes",
+    "content-type": "application/javascript",
+    "content-language": "en",
+    "x-goog-generation": "1591238428774371",
+    "x-guploader-uploadid": "ADPycdvu0KRlbsjDuf_uTq6_v5GrVCLCZ1MsFqc59TBAivJuE5DxAaG_KJBo4_-LG7s4LxdhxoBUrrJPKI4QZLnrBYO96_vjnbdw",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-length": "105",
+    "access-control-expose-headers": "Content-Type",
+    "etag": "\"90d26386d12b2a6606660c66456d67cd\"",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-metageneration": "2",
+    "x-goog-hash": "crc32c=tBMIDw==,md5=kNJjhtErKmYGZgxmRW1nzQ==",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "server": "UploadServer"
+  },
+  "url": "https://jspm.dev/npm:uc.micro@1.0.6/categories/Cc/regex!cjs"
+}

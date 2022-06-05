@@ -1,0 +1,6 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "url": "data:application/json;base64,eyJpbXBvcnRzIjp7Imx1bWUiOiJodHRwczovZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvbW9kLnRzIiwibHVtZS8iOiJodHRwczovZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvIiwiaHR0cHM6Ly9kZW5vLmxhbmQveC9sdW1lLyI6Imh0dHBzOi9kZW5vLmxhbmQveC9sdW1lQHYxLjMuMC8ifX0="
+}

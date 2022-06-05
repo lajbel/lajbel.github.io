@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/typescript; charset=utf-8",
+    "server": "deno/us-west1-a",
+    "x-amz-id-2": "dlFgA9w8+MwvGItylqTv1GGn3uFUv5rlBdsJMyg+s0qcLAzPr4SpKN4FjVjzqyECd697ZI7HYEQ=",
+    "content-length": "421",
+    "x-amz-version-id": "Fh0P3rAxV_gRT4KlikQnc11P.BI3hdi0",
+    "etag": "\"9d8057bc0adaf6e3f1e8ab0c21658bb5\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-request-id": "BJNM9GXZ8AK7X6W9",
+    "date": "Sun, 05 Jun 2022 21:37:17 GMT",
+    "access-control-allow-origin": "*",
+    "last-modified": "Sat, 17 Jul 2021 16:14:14 GMT",
+    "vary": "Accept-Encoding"
+  },
+  "url": "https://deno.land/x/cliffy@v0.19.3/command/types/command.ts"
+}

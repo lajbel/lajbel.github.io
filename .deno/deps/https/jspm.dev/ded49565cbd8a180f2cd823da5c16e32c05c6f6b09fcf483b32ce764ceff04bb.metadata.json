@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "etag": "\"e14a1997d85506e781e034c2bf5e9b02\"",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-hash": "crc32c=mDfDUg==,md5=4UoZl9hVBueB4DTCv16bAg==",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "server": "UploadServer",
+    "access-control-expose-headers": "Content-Type",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-goog-stored-content-length": "25485",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-generation": "1627946680674632",
+    "access-control-allow-origin": "*",
+    "cross-origin-resource-policy": "cross-origin",
+    "last-modified": "Mon, 02 Aug 2021 23:24:40 GMT",
+    "accept-ranges": "bytes",
+    "x-guploader-uploadid": "ADPycdv2EGThNYzFAIcraNB3URK8UiqWh6UxOD1OHrXT_HKelta_bRHAFDGbJ1HIXBXqcrVuLzM9Ma6h-K-hPDv0n8Ddkw",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2"
+  },
+  "url": "https://jspm.dev/npm:markdown-it@12.2.0/lib/index!cjs"
+}

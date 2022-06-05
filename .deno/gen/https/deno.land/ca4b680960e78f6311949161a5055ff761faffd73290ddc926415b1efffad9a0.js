@@ -1,0 +1,2 @@
+export * from "https://deno.land/x/deno_dom@v0.1.17-alpha/deno-dom-wasm.ts";
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3gvbHVtZUB2MS4zLjAvZGVwcy9kb20udHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSBcImh0dHBzOi8vZGVuby5sYW5kL3gvZGVub19kb21AdjAuMS4xNy1hbHBoYS9kZW5vLWRvbS13YXNtLnRzXCI7XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6ImNBQWMsQ0FBNkQifQ==

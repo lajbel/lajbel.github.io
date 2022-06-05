@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "x-cache": "FunctionGeneratedResponse from cloudfront",
+    "x-amz-cf-pop": "SEA73-P2",
+    "x-amz-cf-id": "kz-7BAuF3B68_PCe1S748QzcUqyZ37XyoG2WWPu7lVHoRxBemSOcKw==",
+    "content-length": "0",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "server": "CloudFront",
+    "vary": "Origin",
+    "via": "1.1 0800f067ff646622f3e8e507cb9b52e8.cloudfront.net (CloudFront)",
+    "location": "https://gvfoimasa2aoeoecwuhb2kssfesupybu3bkrt6w2xy6viembjoaq.arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/testing/asserts.ts"
+  },
+  "url": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/testing/asserts.ts"
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "last-modified": "Thu, 06 May 2021 09:18:17 GMT",
+    "etag": "\"d47409caf120e07385cfcc9967551ee3\"",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-guploader-uploadid": "ADPycduvGNkNtoc5MhUgyOd2iHDNyvN2iuoobZnh6_V1eMhPg-JI8G4FkRl-qCN2E5XwyjQqcODit0m3rGDUf-56ifq9yA",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-metageneration": "2",
+    "x-goog-stored-content-length": "540",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-hash": "crc32c=gjLqaw==,md5=1HQJyvEg4HOFz8yZZ1Ue4w==",
+    "cross-origin-resource-policy": "cross-origin",
+    "content-type": "application/javascript; charset=utf-8",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "server": "UploadServer",
+    "x-goog-generation": "1620292697534897",
+    "x-goog-storage-class": "STANDARD",
+    "access-control-allow-origin": "*",
+    "accept-ranges": "bytes"
+  },
+  "url": "https://jspm.dev/npm:caniuse-lite@1.0.30001223/data/features/css-filter-function!cjs"
+}

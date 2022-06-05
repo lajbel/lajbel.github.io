@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "server": "UploadServer",
+    "cross-origin-resource-policy": "cross-origin",
+    "accept-ranges": "bytes",
+    "last-modified": "Thu, 02 Jun 2022 06:50:49 GMT",
+    "x-guploader-uploadid": "ADPycduSzlp8jPU5VgiCDeWidiBl8gr_MphYeTrzwFOW37ebb1OzDepIIaJmGW9TjyRRob1eFKwfN8nk9XUayzxD67esYQ",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-length": "4985",
+    "x-goog-generation": "1654152649116542",
+    "x-goog-metageneration": "2",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "etag": "\"ca25c5550fd1a75157249ac3edc017a2\"",
+    "x-goog-hash": "crc32c=dgW9nw==,md5=yiXFVQ/Rp1FXJJrD7cAXog==",
+    "content-type": "text/javascript; charset=utf-8",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-stored-content-encoding": "br",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://jspm.dev/npm:caniuse-lite@1.0.30001346/dist/unpacker/agents!cjs"
+}

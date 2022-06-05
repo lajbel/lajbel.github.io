@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-generation": "1620292695015197",
+    "content-type": "application/javascript; charset=utf-8",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "etag": "\"be2b49aa576df82a79b31c06246728ce\"",
+    "x-goog-metageneration": "2",
+    "x-goog-hash": "crc32c=BcuzQQ==,md5=vitJqldt+Cp5sxwGJGcozg==",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "last-modified": "Thu, 06 May 2021 09:18:15 GMT",
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "server": "UploadServer",
+    "x-goog-stored-content-encoding": "br",
+    "access-control-allow-origin": "*",
+    "x-guploader-uploadid": "ADPycduWxnUH5V4XNELMMjIey-_683opHN_z2k_lFOy7_x6vKq0GgbHJVgOr3PSkbvXTbLLqPJfsc2Iw9EnEtnqyFQawlg",
+    "x-goog-stored-content-length": "84",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-storage-class": "STANDARD"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-backdrop-filter"
+}

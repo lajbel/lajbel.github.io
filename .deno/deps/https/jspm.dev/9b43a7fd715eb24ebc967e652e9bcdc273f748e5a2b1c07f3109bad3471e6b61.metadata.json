@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "last-modified": "Fri, 03 Jun 2022 10:47:40 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-metageneration": "2",
+    "cross-origin-resource-policy": "cross-origin",
+    "access-control-allow-origin": "*",
+    "x-goog-stored-content-length": "69",
+    "x-goog-hash": "crc32c=XmEE7w==,md5=ihbWp1hZNeKE6sl2bkEPmw==",
+    "content-type": "text/javascript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "server": "UploadServer",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-guploader-uploadid": "ADPycdvMAr6UEMg9AaQ4lqWRT3bwUpnbe3BH9F-vVfWy2d0dUS2uVwCupqqEmsYZGGyoP6FdpiJTvWrP_LsaQL16tlT77yyGNjAd",
+    "x-goog-storage-class": "STANDARD",
+    "etag": "\"8a16d6a7585935e284eac9766e410f9b\"",
+    "cache-control": "public, max-age=200",
+    "x-goog-generation": "1654253260149801",
+    "access-control-expose-headers": "Content-Type",
+    "accept-ranges": "bytes",
+    "expires": "Sun, 05 Jun 2022 21:41:31 GMT"
+  },
+  "url": "https://jspm.dev/npm:electron-to-chromium@1/versions!cjs"
+}

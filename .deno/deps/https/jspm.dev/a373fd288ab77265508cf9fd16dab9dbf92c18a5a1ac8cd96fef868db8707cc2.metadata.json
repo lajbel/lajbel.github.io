@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-metageneration": "2",
+    "cross-origin-resource-policy": "cross-origin",
+    "server": "UploadServer",
+    "last-modified": "Thu, 06 May 2021 09:18:14 GMT",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "access-control-allow-origin": "*",
+    "x-goog-hash": "crc32c=K4rmzg==,md5=zsjVhhFuoEexZ5rYQXe+aw==",
+    "x-goog-generation": "1620292694723223",
+    "content-type": "application/javascript; charset=utf-8",
+    "etag": "\"cec8d586116ea047b1679ad84177be6b\"",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-stored-content-length": "83",
+    "accept-ranges": "bytes",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-guploader-uploadid": "ADPycdvNFZPRQBL5gKazgiDB9dG8Rgwtffp0MdhOrk04PU1MM65QBN9XloqJM2MEgfeL9NeR7f0lB25fVbLOqo75H3QTu2mAIJZn"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-boxdecorationbreak"
+}

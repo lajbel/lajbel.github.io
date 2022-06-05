@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/javascript",
+    "x-amz-request-id": "61J6JRANVRE6S45Q",
+    "server": "deno/us-west1-a",
+    "date": "Sun, 05 Jun 2022 21:38:13 GMT",
+    "last-modified": "Sat, 17 Apr 2021 17:06:05 GMT",
+    "x-amz-id-2": "lEJwsdp8e1TfxeBgaj3s6gLB5gvp3twc8TvamXbIk54WGx0VJOSmCLgG8VPr7vI5h9gtPrWyFT8=",
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "Pd12RWetZbAJaRnRxg9a2_P4xb8nM29W",
+    "etag": "W/\"aa07cef1919d965f9934249ac236a027\"",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, immutable"
+  },
+  "url": "https://deno.land/x/source_map@0.6.2/lib/util.js"
+}

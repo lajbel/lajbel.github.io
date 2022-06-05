@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:34:16 GMT",
+    "x-cache": "Hit from cloudfront",
+    "via": "1.1 57bd3a2d9e0e4cbf89d9eb3d7dfb916e.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA73-P2",
+    "etag": "QENC1OuTp8C8qLKA_t6eveErwp7IWEK5tAT2aqMmoGM",
+    "x-amz-cf-id": "8BNhyTS_9OchDToX0wTC9adDFWUdIiAs9ZJEDXIOQD3YCnbwFDya0Q==",
+    "content-type": "application/typescript",
+    "content-length": "73",
+    "x-trace": "OZ6suRqq_a",
+    "cache-control": "public,must-revalidate,max-age=2592000",
+    "vary": "Origin",
+    "age": "581180"
+  },
+  "url": "https://ibbufvhlsot4bpfiwkalpj5ppbfpbj5scyik43ibhwnkrsnida.arweave.net/QENC1OuTp8C8qLKA_t6eveErwp7IWEK5tAT2aqMmoGM/table/deps.ts"
+}

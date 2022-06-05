@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-amz-request-id": "DZR1P88WNT12RE1X",
+    "content-length": "46134",
+    "etag": "\"1012b9d7a1bb4763cc499d1917246e33\"",
+    "content-type": "application/typescript; charset=utf-8",
+    "server": "deno/us-west1-a",
+    "x-amz-id-2": "2kK3teDnPA0VVijvkL/qFPkQpbnlHgurrMT8lC2dUt6RUshVIHXYjDIK+ApKSNPEce+xjHvJLvg=",
+    "x-amz-version-id": "EUeKA8mi4dwn0cV55SoadhHSw4K4TgRG",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=31536000, immutable",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "last-modified": "Mon, 31 May 2021 00:50:39 GMT"
+  },
+  "url": "https://deno.land/x/semver@v1.4.0/mod.ts"
+}

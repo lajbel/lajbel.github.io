@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "server": "deno/us-west1-a",
+    "x-amz-id-2": "9FqJ5x/ImL9wnkNwBTAOsZ1IE3YtSkalpY34SXrcvseHS0fguM9nbYq6Gk4u+feIqv6qFCdOu1w=",
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Sun, 07 Nov 2021 21:05:07 GMT",
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:37:52 GMT",
+    "vary": "Accept-Encoding",
+    "x-amz-version-id": "2Ts3me2Px48KB5yrXMj3jgU9RDGys4Pd",
+    "content-length": "83",
+    "etag": "\"c4566da7994b851a4cdf0d819461e5e0\"",
+    "x-amz-request-id": "4Q5J0FT6YJD91YQF"
+  },
+  "url": "https://deno.land/x/deno_dom@v0.1.17-alpha/src/constructor-lock.ts"
+}

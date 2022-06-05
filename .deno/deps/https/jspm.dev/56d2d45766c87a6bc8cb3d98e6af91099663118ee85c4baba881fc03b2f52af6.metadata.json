@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "etag": "\"607e3673a62fd87e3c06bcd3667f6be4\"",
+    "last-modified": "Mon, 02 Aug 2021 23:24:56 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-stored-content-length": "283",
+    "accept-ranges": "bytes",
+    "access-control-expose-headers": "Content-Type",
+    "access-control-allow-origin": "*",
+    "x-goog-generation": "1627946696431265",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2",
+    "cross-origin-resource-policy": "cross-origin",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-storage-class": "STANDARD",
+    "content-type": "application/javascript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "server": "UploadServer",
+    "x-guploader-uploadid": "ADPycdtRppfapJ2ZfyWg7sJfYhMZ87xpgj5dNAy-WrfbxqDn5VdYgzAbGX4Fo9N-zWWRFCCN0-pV7dmmUTzcupMlnRp1VA",
+    "x-goog-hash": "crc32c=e2dAQg==,md5=YH42c6Yv2H48BrzTZn9r5A==",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "url": "https://jspm.dev/markdown-it@12.2.0"
+}

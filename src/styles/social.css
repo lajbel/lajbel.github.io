@@ -10,13 +10,6 @@
 	margin: 7px;
 }
 
-.social li.outline {
-	/* Thanks to StackOverFlow and Wonder*/
-	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000,
-		1px 1px 0 #000000, -2px 0 0 #000000, 2px 0 0 #000000, 0 2px 0 #000000,
-		0 -2px 0 #000000;
-}
-
 .social a {
 	text-decoration: none;
 }
@@ -25,7 +18,7 @@
 	color: #1da1f2;
 }
 
-.social i.fa-github-alt {
+.social i.fa-github {
 	color: #171515;
 }
 

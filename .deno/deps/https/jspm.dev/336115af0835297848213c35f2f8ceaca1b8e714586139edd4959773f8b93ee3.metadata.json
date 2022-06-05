@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "x-goog-metageneration": "2",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "accept-ranges": "bytes",
+    "x-guploader-uploadid": "ADPycdt5vJZK63VrTYe7gRWObBOK9Aa7_RYeaJSsd6wPDcyKK7hizUHG0lhvJBLvO7SD0Mi6DXtuxlKzvAbZn_5xwmvDFQ",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "etag": "\"149f0b857ccfeb1eb30f9f4f746ff939\"",
+    "content-type": "application/javascript; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-encoding": "br",
+    "x-goog-stored-content-length": "462",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-goog-storage-class": "STANDARD",
+    "last-modified": "Sat, 02 Oct 2021 09:52:18 GMT",
+    "x-goog-generation": "1633168338816896",
+    "x-goog-hash": "crc32c=95j0iA==,md5=FJ8LhXzP6x6zD59PdG/5OQ==",
+    "cross-origin-resource-policy": "cross-origin",
+    "server": "UploadServer"
+  },
+  "url": "https://jspm.dev/npm:node-releases@1.1.77/data/release-schedule/release-schedule.json!cjs"
+}

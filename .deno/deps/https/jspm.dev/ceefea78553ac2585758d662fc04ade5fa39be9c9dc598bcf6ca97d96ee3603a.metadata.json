@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "server": "UploadServer",
+    "x-goog-generation": "1620292693202177",
+    "x-goog-hash": "crc32c=patt+w==,md5=7WKe232FFHCs9nLtAOLO1A==",
+    "x-goog-stored-content-length": "78",
+    "x-goog-storage-class": "STANDARD",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-stored-content-encoding": "br",
+    "content-type": "application/javascript; charset=utf-8",
+    "etag": "\"ed629edb7d851470acf672ed00e2ced4\"",
+    "last-modified": "Thu, 06 May 2021 09:18:13 GMT",
+    "x-goog-metageneration": "2",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "access-control-expose-headers": "Content-Type",
+    "x-guploader-uploadid": "ADPycdvDDd62rVkOY3Ng43WJwZ4qnDb_xZSkIpTIKJXzkqR4nV6TI2ZRLheQV3luTQBfLLz4eymEcgfsKwZer1egIKlsCTF7YfnO",
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT"
+  },
+  "url": "https://jspm.dev/caniuse-lite@1.0.30001223/data/features/css-sticky"
+}

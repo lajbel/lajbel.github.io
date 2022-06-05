@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "server": "deno/us-west1-a",
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Sat, 29 Aug 2020 19:54:11 GMT",
+    "vary": "Accept-Encoding",
+    "etag": "\"4f5ac4daabc34d4a105b72bae8046a89\"",
+    "content-length": "650",
+    "x-amz-id-2": "yksOR+32h69NBG68+sRcE8WdhZII69LmcZOf27K0X0Fcwxy0nryj3f8LnWg4PfqYtuHV/XbllpE=",
+    "x-amz-request-id": "DZR04VTJR01BAH0A",
+    "x-amz-version-id": "null"
+  },
+  "url": "https://deno.land/x/levenshtein@v1.0.1/mod.ts"
+}

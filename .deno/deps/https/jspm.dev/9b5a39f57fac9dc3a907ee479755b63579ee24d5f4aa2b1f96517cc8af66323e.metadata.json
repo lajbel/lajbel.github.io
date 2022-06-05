@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "expires": "Sun, 12 Jun 2022 21:38:06 GMT",
+    "x-goog-stored-content-length": "1786",
+    "server": "UploadServer",
+    "etag": "\"4142c6817977fc4569fa0734f4978e42\"",
+    "access-control-expose-headers": "Content-Type",
+    "last-modified": "Mon, 02 Aug 2021 23:24:39 GMT",
+    "x-goog-generation": "1627946679494262",
+    "accept-ranges": "bytes",
+    "x-guploader-uploadid": "ADPycdvQRxgRpeRlbWWQzcCsivB3gEfAv_53ILBZUkeId3Yz-eJsE8na4iKy6sYcsFQ5vKteOKmVhCq49ck4FzBdsr-V1w",
+    "x-goog-hash": "crc32c=8Az4Rw==,md5=QULGgXl3/EVp+gc09JeOQg==",
+    "cross-origin-resource-policy": "cross-origin",
+    "x-goog-storage-class": "STANDARD",
+    "content-type": "application/javascript; charset=utf-8",
+    "date": "Sun, 05 Jun 2022 21:38:06 GMT",
+    "x-goog-metageneration": "2",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "access-control-allow-origin": "*",
+    "x-goog-stored-content-encoding": "br"
+  },
+  "url": "https://jspm.dev/npm:markdown-it@12.2.0/lib/rules_core/smartquotes!cjs"
+}

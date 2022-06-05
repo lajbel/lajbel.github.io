@@ -1,7 +1,5 @@
-# The LaJLand V69
+# lajbel.land 🍹
 
-The LaJLand it's basically my site, for a simple and pretty profile and portfolio! Now in version 69, the last ☕ 
+lajbel.land is a forgoted land in the lajworld
 
-## Powered By 🚀
-
-[Lume - A static site generator for Deno 🔥](https://lumeland.github.io)
+*Using [Lume](https://lumeland.github.io)*

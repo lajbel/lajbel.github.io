@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "etag": "\"cadaa4480e3ceeaa9149380fee83a55f\"",
+    "cache-control": "public, max-age=31536000, immutable",
+    "x-amz-request-id": "61J0DMQKWVH5D9HQ",
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "last-modified": "Tue, 28 Sep 2021 13:44:01 GMT",
+    "server": "deno/us-west1-a",
+    "content-length": "279",
+    "x-amz-version-id": "LV3zKhLDrIUfe.v_61QZvr5ScEa43MHd",
+    "x-amz-id-2": "ASqoUVgGWQVRRLqYnhPn+CUOgpPSidKC+3toMSRccHJAFLn3xV1/YVkcAA+9guGHkFskAB1Q9OM=",
+    "vary": "Accept-Encoding",
+    "date": "Sun, 05 Jun 2022 21:38:13 GMT"
+  },
+  "url": "https://deno.land/std@0.109.0/node/_fs/_fs_unlink.ts"
+}

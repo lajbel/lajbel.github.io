@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "date": "Sun, 05 Jun 2022 21:37:16 GMT",
+    "vary": "Accept",
+    "access-control-allow-methods": "GET,POST",
+    "content-type": "text/plain; charset=utf-8",
+    "access-control-allow-headers": "*",
+    "content-length": "96",
+    "connection": "keep-alive",
+    "server": "nginx/1.14.0 (Ubuntu)",
+    "location": "https://arweave.net/NUrkMBIGgOI4grUOHSpSKSVH4DTYVRn62r49VBGBS4E/log/mod.ts",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://x.nest.land/std@0.97.0/log/mod.ts"
+}

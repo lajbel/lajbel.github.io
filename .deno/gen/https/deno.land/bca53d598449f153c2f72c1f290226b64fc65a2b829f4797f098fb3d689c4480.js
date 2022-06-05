@@ -1,0 +1,25 @@
+// Ported from js-yaml v3.13.1:
+// https://github.com/nodeca/js-yaml/commit/665aadda42349dcae869f12040d9b10ef18d12da
+// Copyright 2011-2015 by Vitaly Puzrin. All rights reserved. MIT license.
+// Copyright 2018-2021 the Deno authors. All rights reserved. MIT license.
+import { Schema } from "../schema.ts";
+import { binary, merge, omap, pairs, set, timestamp } from "../type/mod.ts";
+import { core } from "./core.ts";
+// JS-YAML's default schema for `safeLoad` function.
+// It is not described in the YAML specification.
+export const def = new Schema({
+    explicit: [
+        binary,
+        omap,
+        pairs,
+        set
+    ],
+    implicit: [
+        timestamp,
+        merge
+    ],
+    include: [
+        core
+    ]
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImh0dHBzOi8vZGVuby5sYW5kL3N0ZEAwLjExMy4wL2VuY29kaW5nL195YW1sL3NjaGVtYS9kZWZhdWx0LnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIFBvcnRlZCBmcm9tIGpzLXlhbWwgdjMuMTMuMTpcbi8vIGh0dHBzOi8vZ2l0aHViLmNvbS9ub2RlY2EvanMteWFtbC9jb21taXQvNjY1YWFkZGE0MjM0OWRjYWU4NjlmMTIwNDBkOWIxMGVmMThkMTJkYVxuLy8gQ29weXJpZ2h0IDIwMTEtMjAxNSBieSBWaXRhbHkgUHV6cmluLiBBbGwgcmlnaHRzIHJlc2VydmVkLiBNSVQgbGljZW5zZS5cbi8vIENvcHlyaWdodCAyMDE4LTIwMjEgdGhlIERlbm8gYXV0aG9ycy4gQWxsIHJpZ2h0cyByZXNlcnZlZC4gTUlUIGxpY2Vuc2UuXG5cbmltcG9ydCB7IFNjaGVtYSB9IGZyb20gXCIuLi9zY2hlbWEudHNcIjtcbmltcG9ydCB7IGJpbmFyeSwgbWVyZ2UsIG9tYXAsIHBhaXJzLCBzZXQsIHRpbWVzdGFtcCB9IGZyb20gXCIuLi90eXBlL21vZC50c1wiO1xuaW1wb3J0IHsgY29yZSB9IGZyb20gXCIuL2NvcmUudHNcIjtcblxuLy8gSlMtWUFNTCdzIGRlZmF1bHQgc2NoZW1hIGZvciBgc2FmZUxvYWRgIGZ1bmN0aW9uLlxuLy8gSXQgaXMgbm90IGRlc2NyaWJlZCBpbiB0aGUgWUFNTCBzcGVjaWZpY2F0aW9uLlxuZXhwb3J0IGNvbnN0IGRlZiA9IG5ldyBTY2hlbWEoe1xuICBleHBsaWNpdDogW2JpbmFyeSwgb21hcCwgcGFpcnMsIHNldF0sXG4gIGltcGxpY2l0OiBbdGltZXN0YW1wLCBtZXJnZV0sXG4gIGluY2x1ZGU6IFtjb3JlXSxcbn0pO1xuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEVBQStCLEFBQS9CLDZCQUErQjtBQUMvQixFQUFvRixBQUFwRixrRkFBb0Y7QUFDcEYsRUFBMEUsQUFBMUUsd0VBQTBFO0FBQzFFLEVBQTBFLEFBQTFFLHdFQUEwRTtBQUUxRSxNQUFNLEdBQUcsTUFBTSxRQUFRLENBQWM7QUFDckMsTUFBTSxHQUFHLE1BQU0sRUFBRSxLQUFLLEVBQUUsSUFBSSxFQUFFLEtBQUssRUFBRSxHQUFHLEVBQUUsU0FBUyxRQUFRLENBQWdCO0FBQzNFLE1BQU0sR0FBRyxJQUFJLFFBQVEsQ0FBVztBQUVoQyxFQUFvRCxBQUFwRCxrREFBb0Q7QUFDcEQsRUFBaUQsQUFBakQsK0NBQWlEO0FBQ2pELE1BQU0sQ0FBQyxLQUFLLENBQUMsR0FBRyxHQUFHLEdBQUcsQ0FBQyxNQUFNLENBQUMsQ0FBQztJQUM3QixRQUFRLEVBQUUsQ0FBQztRQUFBLE1BQU07UUFBRSxJQUFJO1FBQUUsS0FBSztRQUFFLEdBQUc7SUFBQSxDQUFDO0lBQ3BDLFFBQVEsRUFBRSxDQUFDO1FBQUEsU0FBUztRQUFFLEtBQUs7SUFBQSxDQUFDO0lBQzVCLE9BQU8sRUFBRSxDQUFDO1FBQUEsSUFBSTtJQUFBLENBQUM7QUFDakIsQ0FBQyJ9

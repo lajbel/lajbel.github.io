@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "accept-ranges": "bytes",
+    "cross-origin-resource-policy": "cross-origin",
+    "server": "UploadServer",
+    "x-goog-hash": "crc32c=4Ub4gQ==,md5=SjtVFSsVi6VuKKdzjwMGTA==",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "x-guploader-uploadid": "ADPycdsbrSXzNiAO83RAjX6t9L2zQmxIfmB74rzxxukiFBetufWE5L8U2Uons7mhVt0spYCjIwXYbnsgFxz6cPr2RTDTrA",
+    "cache-control": "public, max-age=31536000, s-maxage=604800, immutable",
+    "x-goog-generation": "1608660773655850",
+    "access-control-allow-origin": "*",
+    "date": "Sun, 05 Jun 2022 21:38:11 GMT",
+    "expires": "Sun, 12 Jun 2022 21:38:11 GMT",
+    "x-goog-stored-content-encoding": "br",
+    "content-type": "application/javascript",
+    "content-language": "en",
+    "etag": "\"4a3b55152b158ba56e28a7738f03064c\"",
+    "access-control-expose-headers": "Content-Type",
+    "x-goog-stored-content-length": "4841",
+    "last-modified": "Tue, 22 Dec 2020 18:12:53 GMT",
+    "x-goog-storage-class": "STANDARD",
+    "x-goog-metageneration": "2"
+  },
+  "url": "https://jspm.dev/npm:fraction.js@4.0.13!cjs"
+}

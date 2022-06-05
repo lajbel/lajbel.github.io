@@ -1,0 +1,21 @@
+import _token from '../token!cjs';
+
+var exports = {};
+var Token = _token;
+
+function StateCore(src, md, env) {
+  this.src = src;
+  this.env = env;
+  this.tokens = [];
+  this.inlineMode = false;
+  this.md = md; // link to parser instance
+} // re-export Token class to use in core rules
+
+
+StateCore.prototype.Token = Token;
+exports = StateCore;
+var _state_core = exports;
+
+export default _state_core;
+
+//# sourceMappingURL=state_core!cjs.map

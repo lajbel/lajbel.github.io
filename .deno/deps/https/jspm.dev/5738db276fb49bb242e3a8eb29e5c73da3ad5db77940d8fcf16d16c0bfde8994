@@ -1,0 +1,1 @@
+export { default } from "/npm:caniuse-lite@1.0.30001223/data/features/background-img-opts!cjs";
