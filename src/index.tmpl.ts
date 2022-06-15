@@ -12,7 +12,7 @@ export const bio = `Hi, I'm <span>Dani</span>, web developer, I like programming
 export const t1 = "LaJ";
 export const t2 = "Bel";
 
-export const avatar = "img/lajvatar.jpg";
+export const avatar = "img/lajvatar.png";
 
 export const socials = [
     `<a href="https://lajbel.itch.io/" target="_blank"><i class="fa-brands fa-itch-io"></i></a>`,
